@@ -164,3 +164,17 @@ Built by **QuattroFormaggi** for UNOCHA Datathon 2026
 **Live Demo**: [Coming soon - Deploy your own Space!](https://huggingface.co/spaces/new)
 
 Need help? Check the [documentation](./geo-insight/HF_SPACES_README.md) or run `python test_setup.py` to validate your setup.
+
+
+title: UNOCHA
+emoji: 💻
+colorFrom: blue
+colorTo: gray
+sdk: gradio
+sdk_version: "6.14.0"
+python_version: "3.13"
+app_file: app.py
+pinned: false
+
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
