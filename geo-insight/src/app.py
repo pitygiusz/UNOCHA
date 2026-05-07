@@ -47,6 +47,7 @@ async def chat_pipeline(message, history):
         filtered_articles = filter_articles(agent_json, str(ARTICLES_FILE_PATH))
         
         print(f"[DEBUG] Filtered DataFrame shape: {filtered_df.shape}")
+        print(f"[DEBUG] Filtered Articles shape: {filtered_articles.shape}")
         
         # If no results, try broader search
         if filtered_df.empty: 
