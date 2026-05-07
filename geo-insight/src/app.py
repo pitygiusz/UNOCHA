@@ -129,49 +129,6 @@ async def chat_pipeline(message):
         print(f"[ERROR] Exception occurred: {str(e)}")
         print(f"[ERROR] Traceback:\n{error_traceback}")
         return f"**Pipeline Error:** An error occurred while processing your request: `{str(e)}`\n\n<details><summary>Debug Info</summary>\n\n```\n{error_traceback}\n```\n</details>"
-        
-        # Append the filtered DataFrame as a markdown table
-        print("[DEBUG] Appending filtered DataFrame to result...")
-        # 1. Agregacja (Grupujemy po kraju)
-        print_df = filtered_df.groupby("country_code").agg({
-            "population": "max", 
-            "total_required_funds": "sum", 
-            "total_granted_funds": "sum", 
-            "severity_index": "max" 
-        }).reset_index()
-
-
-
-        # 2. DROP - Usunięty, bo agg() i tak zostawia tylko te kolumny, które wymieniliśmy wyżej.
-        # Próba usunięcia nieistniejących kolumn rzuciłaby błąd.
-
-        # 3. Formatowanie kolumn (Używamy .map() lub .apply(), bo to są serie danych, nie pojedyncze skalarne wartości)
-        print_df['population'] = print_df['population'].map(lambda x: f"{x/1000000:.1f}M")
-        print_df['total_required_funds'] = print_df['total_required_funds'].map(lambda x: f"${x/1000000:.1f}M")
-        print_df['total_granted_funds'] = print_df['total_granted_funds'].map(lambda x: f"${x/1000000:.1f}M")
-
-        print_df = print_df.rename(columns={
-            "country_code": "Country",
-            "population": "Population",
-            "total_required_funds": "Required Funds",
-            "total_granted_funds": "Granted Funds",
-            "severity_index": "Severity Index"
-        })
-        
-        # 4. Tabela Markdown (Używamy print_df, czyli tej sformatowanej wersji, a nie filtered_df)
-        df_markdown = "\n\n---\n\n## Summary Data Table\n\n" + print_df.to_markdown(index=False)
-        final_result = agent2_result + df_markdown
-        
-        # Return the generated report to the UI
-        print("[DEBUG] === Pipeline completed successfully ===\n")
-        return final_result
-        
-    except Exception as e:
-        # Graceful error handling for the UI
-        error_traceback = traceback.format_exc()
-        print(f"[ERROR] Exception occurred: {str(e)}")
-        print(f"[ERROR] Traceback:\n{error_traceback}")
-        return f"**Pipeline Error:** An error occurred while processing your request: `{str(e)}`\n\n<details><summary>Debug Info</summary>\n\n```\n{error_traceback}\n```\n</details>"
 
 # ==========================================
 # CUSTOM UI STYLING & BEHAVIOR
@@ -448,6 +405,7 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
     # Event Handlers
     # ---------------------------
     def transition_to_loading():
+        print("[DEBUG] Transitioning to loading view...")
         return [
             gr.update(visible=False), # Hide search
             gr.update(visible=True),  # Show loader
@@ -455,7 +413,9 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
         ]
         
     async def run_pipeline_and_show(msg):
+        print(f"[DEBUG] run_pipeline_and_show called with message: {msg}")
         result = await chat_pipeline(msg)
+        print(f"[DEBUG] Pipeline returned result, transitioning to result view...")
         return [
             gr.update(visible=False), # Hide loader
             gr.update(visible=True),  # Show result
@@ -463,6 +423,7 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
         ]
         
     def reset_app():
+        print("[DEBUG] Resetting app...")
         return [
             gr.update(visible=True),  # Show search
             gr.update(visible=False), # Hide loader
@@ -470,22 +431,30 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
             gr.update(value="")       # Clear text input
         ]
 
-    # Triggering the pipeline (Button click or Enter key)
+    # Triggering the pipeline (Button click)
     submit_btn.click(
-        fn=transition_to_loading, outputs=[search_view, loading_view, result_view]
+        fn=transition_to_loading, 
+        outputs=[search_view, loading_view, result_view]
     ).then(
-        fn=run_pipeline_and_show, inputs=[user_input], outputs=[loading_view, result_view, output_paper]
+        fn=run_pipeline_and_show, 
+        inputs=[user_input], 
+        outputs=[loading_view, result_view, output_paper]
     )
     
+    # Triggering the pipeline (Enter key)
     user_input.submit(
-        fn=transition_to_loading, outputs=[search_view, loading_view, result_view]
+        fn=transition_to_loading, 
+        outputs=[search_view, loading_view, result_view]
     ).then(
-        fn=run_pipeline_and_show, inputs=[user_input], outputs=[loading_view, result_view, output_paper]
+        fn=run_pipeline_and_show, 
+        inputs=[user_input], 
+        outputs=[loading_view, result_view, output_paper]
     )
 
     # Action buttons
     new_query_btn.click(
-        fn=reset_app, outputs=[search_view, loading_view, result_view, user_input]
+        fn=reset_app, 
+        outputs=[search_view, loading_view, result_view, user_input]
     )
     
     # Save as PDF leverages the browser print function + print specific CSS
