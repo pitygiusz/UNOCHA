@@ -425,13 +425,23 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
         
     async def run_pipeline_and_show(msg):
         print(f"[DEBUG] run_pipeline_and_show called with message: {msg}")
-        result = await chat_pipeline(msg)
-        print(f"[DEBUG] Pipeline returned result, transitioning to result view...")
-        return [
-            gr.update(visible=False), # Hide loader
-            gr.update(visible=True),  # Show result
-            result                    # Populate paper
-        ]
+        try:
+            result = await chat_pipeline(msg)
+            print(f"[DEBUG] Pipeline returned result of length {len(str(result))}")
+            print(f"[DEBUG] Transitioning to result view...")
+            return [
+                gr.update(visible=False), # Hide loader
+                gr.update(visible=True),  # Show result
+                result                    # Populate paper
+            ]
+        except Exception as e:
+            print(f"[DEBUG] Exception in run_pipeline_and_show: {str(e)}")
+            error_msg = f"**Error:** {str(e)}"
+            return [
+                gr.update(visible=False), # Hide loader
+                gr.update(visible=True),  # Show result
+                error_msg                 # Show error in paper
+            ]
         
     def reset_app():
         print("[DEBUG] Resetting app...")
@@ -449,7 +459,8 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
     ).then(
         fn=run_pipeline_and_show, 
         inputs=[user_input], 
-        outputs=[loading_view, result_view, output_paper]
+        outputs=[loading_view, result_view, output_paper],
+        concurrency_limit=1
     )
     
     # Triggering the pipeline (Enter key)
@@ -459,7 +470,8 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
     ).then(
         fn=run_pipeline_and_show, 
         inputs=[user_input], 
-        outputs=[loading_view, result_view, output_paper]
+        outputs=[loading_view, result_view, output_paper],
+        concurrency_limit=1
     )
 
     # Action buttons
