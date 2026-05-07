@@ -27,9 +27,10 @@ print(f"[DEBUG] CSV file path: {CSV_FILE_PATH}")
 print(f"[DEBUG] CSV file exists: {CSV_FILE_PATH.exists()}")
 
 # Main chat pipeline function
-async def chat_pipeline(message):
+async def chat_pipeline(message, history):
     print(f"\n[DEBUG] === Starting chat_pipeline ===")
     print(f"[DEBUG] User message: {message}")
+    print(f"[DEBUG] History length: {len(history) if history else 0}")
     
     try:
         # Step 1: Agent 1 interprets the natural language query
