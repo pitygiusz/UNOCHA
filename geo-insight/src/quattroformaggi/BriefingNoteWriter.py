@@ -9,7 +9,7 @@ async def brief_writer(
     data_as_csv: str, message: str, articles: str, interpretation_notes: str | None = None
 ) -> str:
     notes_instruction = (
-        f"\n5. **Interpretation Notes:** Summarize this in the first paragraph of the briefing note:\n{interpretation_notes}\n"
+        f"\n5. **Interpretation Notes:** Add the following as the first paragraph of the briefing note:\n{interpretation_notes}\n"
         if interpretation_notes
         else ""
     )
