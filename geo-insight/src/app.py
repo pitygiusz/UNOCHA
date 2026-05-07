@@ -57,10 +57,6 @@ async def chat_pipeline(message, history):
             agent_json_extended = agent1_extended_result.model_dump_json()
             filtered_df_extended = filter_humanitarian_data(agent_json_extended, str(CSV_FILE_PATH))
             
-            # Limit CSV size to prevent context overflow
-            if len(filtered_df_extended) > 200:
-                print(f"[DEBUG] Truncating {len(filtered_df_extended)} rows to 200")
-                filtered_df_extended = filtered_df_extended.head(200)
             
             if filtered_df_extended.empty:
                 return "The search did not find any matches in the Humanitarian Crises Database. Please try with different criteria."
@@ -85,28 +81,7 @@ async def chat_pipeline(message, history):
         agent2_result = await brief_writer(data_as_csv_string, message, articles_as_string, agent1_result.model_dump_json())
         print(f"[DEBUG] Agent 2 result length: {len(agent2_result)} characters")
         
-        # Aggregate by country for summary table
-        print_df = filtered_df.groupby("country_code").agg({
-            "population": "max", 
-            "total_required_funds": "sum", 
-            "total_granted_funds": "sum", 
-            "severity_index": "max" 
-        }).reset_index()
-
-        print_df['population'] = print_df['population'].map(lambda x: f"{x/1000000:.1f}M")
-        print_df['total_required_funds'] = print_df['total_required_funds'].map(lambda x: f"${x/1000000:.1f}M")
-        print_df['total_granted_funds'] = print_df['total_granted_funds'].map(lambda x: f"${x/1000000:.1f}M")
-
-        print_df = print_df.rename(columns={
-            "country_code": "Country",
-            "population": "Population",
-            "total_required_funds": "Required Funds",
-            "total_granted_funds": "Granted Funds",
-            "severity_index": "Severity Index"
-        })
-        
-        df_markdown = "\n\n---\n\n## Summary Data Table\n\n" + print_df.to_markdown(index=False)
-        final_result = agent2_result + df_markdown
+        final_result = agent2_result
         
         print("[DEBUG] === Pipeline completed successfully ===\n")
         return final_result
