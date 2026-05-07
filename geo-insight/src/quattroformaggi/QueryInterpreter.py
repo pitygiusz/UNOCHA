@@ -25,7 +25,7 @@ async def interpret_query(user_query: str) -> QuerySpec:
 
     # Używamy słowa kluczowego await dla asynchronicznego wywołania
     response = await client.chat.completions.create(
-        model="openai/gpt-4o-mini", # Możesz użyć innego darmowego modelu
+        model="google/gemini-3-flash-preview", # Możesz użyć innego darmowego modelu
         max_tokens=1024,
         response_format={"type": "json_object"}, # Wymusza na modelu zwrócenie poprawnego JSONa
         messages=[

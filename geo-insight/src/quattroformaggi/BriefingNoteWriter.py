@@ -30,7 +30,7 @@ async def brief_writer(
 
     # Wysłanie zapytania asynchronicznie (zauważ 'await' na początku)
     response = await client.chat.completions.create(
-        model="openai/gpt-4o-mini", # Przykładowy darmowy model - możesz zmienić
+        model="google/gemini-3-flash-preview", # Przykładowy darmowy model - możesz zmienić
         max_tokens=2048,
         messages=[
             {
