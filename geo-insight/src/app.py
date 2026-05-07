@@ -428,20 +428,11 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
         try:
             result = await chat_pipeline(msg)
             print(f"[DEBUG] Pipeline returned result of length {len(str(result))}")
-            print(f"[DEBUG] Transitioning to result view...")
-            return [
-                gr.update(visible=False), # Hide loader
-                gr.update(visible=True),  # Show result
-                result                    # Populate paper
-            ]
+            return result
         except Exception as e:
             print(f"[DEBUG] Exception in run_pipeline_and_show: {str(e)}")
             error_msg = f"**Error:** {str(e)}"
-            return [
-                gr.update(visible=False), # Hide loader
-                gr.update(visible=True),  # Show result
-                error_msg                 # Show error in paper
-            ]
+            return error_msg
         
     def reset_app():
         print("[DEBUG] Resetting app...")
@@ -453,25 +444,41 @@ with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as 
         ]
 
     # Triggering the pipeline (Button click)
+    def on_submit_click():
+        print("[DEBUG] Submit button clicked")
+        return transition_to_loading()
+    
     submit_btn.click(
-        fn=transition_to_loading, 
+        fn=on_submit_click, 
         outputs=[search_view, loading_view, result_view]
     ).then(
-        fn=run_pipeline_and_show, 
+        fn=run_pipeline_and_show,
         inputs=[user_input], 
-        outputs=[loading_view, result_view, output_paper],
+        outputs=[output_paper],
         concurrency_limit=1
+    ).then(
+        fn=lambda: [
+            gr.update(visible=False), # Hide loader
+            gr.update(visible=True),  # Show result
+        ],
+        outputs=[loading_view, result_view]
     )
     
     # Triggering the pipeline (Enter key)
     user_input.submit(
-        fn=transition_to_loading, 
+        fn=on_submit_click, 
         outputs=[search_view, loading_view, result_view]
     ).then(
-        fn=run_pipeline_and_show, 
+        fn=run_pipeline_and_show,
         inputs=[user_input], 
-        outputs=[loading_view, result_view, output_paper],
+        outputs=[output_paper],
         concurrency_limit=1
+    ).then(
+        fn=lambda: [
+            gr.update(visible=False), # Hide loader
+            gr.update(visible=True),  # Show result
+        ],
+        outputs=[loading_view, result_view]
     )
 
     # Action buttons
