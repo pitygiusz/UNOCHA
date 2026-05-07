@@ -63,18 +63,29 @@ async def chat_pipeline(message):
                 agent_json_extended = agent1_extended_result.model_dump_json()
                 print(f"[DEBUG] Agent 1 extended response: {agent_json_extended}")
                 filtered_df_extended = filter_humanitarian_data(agent_json_extended, str(CSV_FILE_PATH))
+                
+                # Limit CSV size to prevent context overflow (target ~50K tokens max)
+                if len(filtered_df_extended) > 200:
+                    print(f"[DEBUG] Truncating {len(filtered_df_extended)} rows to 200 to prevent context overflow")
+                    filtered_df_extended = filtered_df_extended.head(200)
+                
                 data_as_csv_string_extended = filtered_df_extended.to_csv(index=False)
                 print(f"[DEBUG] Extended CSV string length: {len(data_as_csv_string_extended)} characters")
                 
                 if filtered_df_extended.empty:
                     return "The search did not find any matches in the Humanitarian Crises Database. Please try with different criteria."
                 
-                agent2_extended_result = await brief_writer(data_as_csv_string_extended, extended_user_message, "", agent1_extended_result.model_dump_json())
-                print(f"[DEBUG] Agent 2 extended result length: {len(agent2_extended_result)} characters")
-                
-                # Append extended dataframe to extended result
-                df_markdown = "\n\n---\n\n## Data Table\n\n" + filtered_df_extended.to_markdown(index=False)
-                return agent2_extended_result + df_markdown
+                try:
+                    agent2_extended_result = await brief_writer(data_as_csv_string_extended, extended_user_message, "", agent1_extended_result.model_dump_json())
+                    print(f"[DEBUG] Agent 2 extended result length: {len(agent2_extended_result)} characters")
+                    
+                    # Append extended dataframe to extended result
+                    df_markdown = "\n\n---\n\n## Data Table\n\n" + filtered_df_extended.to_markdown(index=False)
+                    return agent2_extended_result + df_markdown
+                except Exception as brief_error:
+                    print(f"[DEBUG] Extended search briefing failed: {str(brief_error)}")
+                    # Return basic summary if briefing fails
+                    return f"Found {len(filtered_df_extended)} records matching broader criteria:\n\n" + filtered_df_extended.to_markdown(index=False)
         
         except Exception as e:
             print(f"[ERROR] Error during data filtering: {str(e)}")
