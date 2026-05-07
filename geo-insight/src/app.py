@@ -124,8 +124,7 @@ demo = gr.ChatInterface(
         "Show underfunded food crises in the Sahel since 2022.",
         "Current state of Middle East.",
         "History of funding in Africa."
-    ],
-    type="messages"
+    ]
 )
 
 print("[DEBUG] Gradio interface configured")
