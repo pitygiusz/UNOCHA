@@ -1,0 +1,11 @@
+gradio>=4.44.0
+pandas
+pydantic
+typing_extensions
+reportlab
+markdown
+tabulate
+requests
+python-dotenv
+openai>=1.0.0
+
