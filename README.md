@@ -1,3 +1,15 @@
+---
+title: UNOCHA Geo-Insight
+emoji: "💻"
+colorFrom: blue
+colorTo: gray
+sdk: gradio
+sdk_version: "6.14.0"
+python_version: "3.13"
+app_file: geo-insight/src/app.py
+pinned: false
+---
+
 # Geo-Insight: Which Crises Are Most Overlooked?
 
 ## Datathon 2026 Solution by QuattroFormaggi
@@ -166,15 +178,5 @@ Built by **QuattroFormaggi** for UNOCHA Datathon 2026
 Need help? Check the [documentation](./geo-insight/HF_SPACES_README.md) or run `python test_setup.py` to validate your setup.
 
 
-title: UNOCHA
-emoji: 💻
-colorFrom: blue
-colorTo: gray
-sdk: gradio
-sdk_version: "6.14.0"
-python_version: "3.13"
-app_file: app.py
-pinned: false
-
-
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+emoji: 💻
