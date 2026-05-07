@@ -63,11 +63,13 @@ def filter_humanitarian_data(agent_json_string: str, csv_file_path: str) -> pd.D
     # Filter by maximum coverage ratio (total_granted_percentage)
     if filters.get("max_coverage_ratio"):
         max_coverage = filters["max_coverage_ratio"]
-        print(f"[DEBUG filter_humanitarian_data] Filtering by max_coverage_ratio: {max_coverage}")
+        # Convert from 0-1 scale to 0-100 scale (CSV has percentages as 0-100)
+        max_coverage_percent = max_coverage * 100 if max_coverage <= 1 else max_coverage
+        print(f"[DEBUG filter_humanitarian_data] Filtering by max_coverage_ratio: {max_coverage} -> {max_coverage_percent}")
         if "total_granted_percentage" in filtered_df.columns:
             print(f"[DEBUG filter_humanitarian_data] total_granted_percentage column exists")
             print(f"[DEBUG filter_humanitarian_data] Coverage ratio values: {filtered_df['total_granted_percentage'].unique()[:10]}")
-            filtered_df = filtered_df[filtered_df["total_granted_percentage"] <= max_coverage]
+            filtered_df = filtered_df[filtered_df["total_granted_percentage"] <= max_coverage_percent]
         print(f"[DEBUG filter_humanitarian_data] After coverage filter: {len(filtered_df)} rows")
     
     print(f"[DEBUG filter_humanitarian_data] Final result: {len(filtered_df)} rows")
