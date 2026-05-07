@@ -1,0 +1,997 @@
+published_date,country,people_affected,help_needed,sector_code
+2026-04-17T00:00:00+00:00,LBN,1049328,"dignified shelter, water and sanitation services, education support, information and legal counselling services and distributed non-food items",SHL
+2026-04-16T00:00:00+00:00,HTI,6400000,Protection (overall),PRO
+2026-04-16T00:00:00+00:00,COD,285500,Education support to children and their families,EDU
+2026-04-15T00:00:00+00:00,IRQ,0,Protection of women and girls from gender-based violence and discrimination,PRO-GBV
+2026-04-14T00:00:00+00:00,HTI,1000000,"Food aid, safe drinking water, healthcare, emergency shelter, specialized services for vulnerable populations",PRO
+2026-04-14T00:00:00+00:00,SDN,9000000,"Humanitarian assistance to meet basic needs, including food, water, shelter, healthcare, and livelihoods.",HEA
+2026-04-14T00:00:00+00:00,PSE,0,"Economic support to mitigate the impact of rising fuel and freight costs on low-income households, informal workers, migrants, and small enterprises.",AGR
+2026-04-14T00:00:00+00:00,SDN,0,"Health services, emergency obstetric care, skilled birth attendants, and access to essential supplies, medicine, staff, and fuel for generators",HEA
+2026-04-13T00:00:00+00:00,SDN,28900000,Food Security,FSC
+2026-04-10T00:00:00+00:00,PSE,920276,"Humanitarian access, reconstruction, and protection from administrative or legal barriers",PRO
+2026-04-09T00:00:00+00:00,SDN,900000,"Food, Shelter, Water, Sanitation, Dignity, Education, Protection",WSH
+2026-04-08T00:00:00+00:00,LBN,350000,"provision of safe and dignified living conditions, access to basic needs, and support for emotional wellbeing and development",PRO-CPN
+2026-04-07T00:00:00+00:00,BGD,6400,Vaccinations and health support to slow down the measles outbreak and prevent further cases and deaths,HEA
+2026-04-02T00:00:00+00:00,LBN,1000000,"Emergency Shelter, Health services, Protection, mental health and psychosocial support, and community-based programming",SHL
+2026-04-02T00:00:00+00:00,UKR,1600000,Protection (overall),PRO
+2026-04-01T00:00:00+00:00,SOM,0,pre-emptive mass displacement due to fear of imminent fighting,PRO
+2026-04-01T00:00:00+00:00,YEM,1220000,"Child protection, landmine and explosive remnants of war risk education and victim assistance",PRO-CPN
+2026-03-31T00:00:00+00:00,IRN,0,Food deliveries to life saving operations around the world face long delays and increased costs,FSC
+2026-03-30T00:00:00+00:00,SDN,0,FSC: Food Security,FSC
+2026-03-30T00:00:00+00:00,MMY,213652,"rebuilding homes, schools, health facilities, and livelihoods",PRO
+2026-03-26T00:00:00+00:00,SOM,2000000,"Nutrition assistance, vaccines, insecticide-treated bednets, and emergency funding to prevent facility closures",NUT
+2026-03-26T00:00:00+00:00,LBN,1200000,Child Protection,PRO-CPN
+2026-03-25T00:00:00+00:00,AFG,0,"Children are hungry, working and out of school due to drought, lack of water, and poverty.",MPC
+2026-03-24T00:00:00+00:00,COD,33000,"shelter, basic household items, health care, access to water and sanitation",PRO
+2026-03-23T00:00:00+00:00,X,0,Humanitarian supply chain disruptions due to conflict in the Middle East,PRO
+2026-03-18T00:00:00+00:00,SYR,125000,"Cash assistance, food, shelter, healthcare",PRO
+2026-03-18T00:00:00+00:00,YEM,12200000,life-saving humanitarian assistance,PRO
+2026-03-17T00:00:00+00:00,PAK,100000,"Proven, low-cost interventions and access to quality health care",HEA
+2026-03-17T00:00:00+00:00,IRN,0,Food Security,FSC
+2026-03-13T00:00:00+00:00,LBN,1300000,"Emergency shelter and non-food items, multipurpose cash assistance, food assistance, health care, water and sanitation services, protection (inclusive of GBV and child protection) services, education, and social stability support",PRO
+2026-03-13T00:00:00+00:00,LBN,816000,Protection (overall),PRO
+2026-03-12T00:00:00+00:00,IRN,3200000,Protection (overall),PRO
+2026-03-12T00:00:00+00:00,SDN,200000,Protection (overall),PRO
+2026-03-12T00:00:00+00:00,LBN,770000,EDU,EDU
+2026-03-10T00:00:00+00:00,LBN,667000,"Emergency Shelter, Food Security, Health, Protection",PRO
+2026-03-10T00:00:00+00:00,AFG,110000,Protection (overall),PRO
+2026-03-10T00:00:00+00:00,CMR,3300000,Food Security,FSC
+2026-03-09T00:00:00+00:00,NGA,null,NUT,NUT
+2026-03-08T00:00:00+00:00,LBN,0,Food security and humanitarian aid,FSC
+2026-03-05T00:00:00+00:00,ARE,300000,Emergency cash assistance,MS
+2026-03-04T00:00:00+00:00,LBN,60000,"Child protection, psychosocial support, nutrition, education, emergency cash assistance",PRO-CPN
+2026-03-03T00:00:00+00:00,LBN,30000,"Food assistance, emergency cash safety net",FSC
+2026-03-02T00:00:00+00:00,SDN,0,Health services and vaccines for children,HEA
+2026-02-27T00:00:00+00:00,PSE,0,HEA,HEA
+2026-02-25T00:00:00+00:00,SSD,1900000,"Emergency assistance, health screening, protection support, and onward transportation",SHL
+2026-02-25T00:00:00+00:00,SOM,null,Nutrition,NUT
+2026-02-24T00:00:00+00:00,UKR,null,"Humanitarian assistance, recovery and reconstruction support",PRO
+2026-02-23T00:00:00+00:00,Moz,720000,EDU,EDU
+2026-02-20T00:00:00+00:00,MDG,486012,"lifesaving assistance, food assistance, water and sanitation services, health care, protection, nutrition programmes and emergency shelter",PRO
+2026-02-20T00:00:00+00:00,SOM,4400000,Emergency food and nutrition assistance,FSC
+2026-02-19T00:00:00+00:00,SDN,0,HEA,HEA
+2026-02-19T00:00:00+00:00,KEN,3300000,Food Security,FSC
+2026-02-18T00:00:00+00:00,ETH,0,Protection (overall),PRO
+2026-02-18T00:00:00+00:00,PAK,null,"Immediate, life-saving assistance to prevent a catastrophe and further deterioration of acute food insecurity",FSC
+2026-02-18T00:00:00+00:00,SDN,130000,"humanitarian supplies, food, nutrition, health, WASH, and education supplies",FSC
+2026-02-17T00:00:00+00:00,UKR,2589900,Protection (overall),PRO
+2026-02-17T00:00:00+00:00,MDG,270000,Protection and emergency response for children affected by the cyclone,PRO-CPN
+2026-02-16T00:00:00+00:00,UKR,325000,"Safe housing, reliable energy, and essential services",PRO
+2026-02-13T00:00:00+00:00,AFG,150000,"protection services, housing and livelihood support, particularly for women",PRO
+2026-02-13T00:00:00+00:00,SSD,280000,"Emergency Shelter, Nutrition, Health, Child Protection, Water, Sanitation and Hygiene",SHL
+2026-02-12T00:00:00+00:00,ISR,20000,Medical evacuations and urgent medical treatment,HEA
+2026-02-12T00:00:00+00:00,MDG,0,"Emergency shelter, safe water and sanitation, food assistance, healthcare, and protection services",SHL
+2026-02-12T00:00:00+00:00,SSD,10000000,"Humanitarian assistance, food security, health, education, protection, and shelter",PRO
+2026-02-11T00:00:00+00:00,Mozambique,844000,"safe water, sanitation, and healthcare",WSH
+2026-02-06T00:00:00+00:00,EGY,115000000,Health emergencies across the Eastern Mediterranean Region,HEA
+2026-02-04T00:00:00+00:00,Mozambique,700000,Preventive vaccination against cholera,HEA
+2026-02-04T00:00:00+00:00,SDN,4200000,Food Security,FSC
+2026-02-03T00:00:00+00:00,AFG,0,Health care access in humanitarian crises and conflicts,HEA
+2026-02-03T00:00:00+00:00,SSD,450000,"Nutrition and health services, emergency aid, and access to vulnerable populations",NUT
+2026-02-02T00:00:00+00:00,SDN,1000000,"Humanitarian aid, food, cash, shelter, education, protection, and water supply",PRO
+2026-01-30T00:00:00+00:00,Moz,392000,Protection (overall),PRO
+2026-01-30T00:00:00+00:00,MMY,16300000,"Food assistance and emergency nutrition, shelter, access to clean water and sanitation, healthcare, mine risk education and assistance, education in emergencies",FSC
+2026-01-30T00:00:00+00:00,SDN,0,Food Security,FSC
+2026-01-28T00:00:00+00:00,COD,null,"Humanitarian assistance to address the effects of armed conflict, climatic hazards, and epidemics.",PRO
+2026-01-27T00:00:00+00:00,SOM,4400000,NUT,NUT
+2026-01-27T00:00:00+00:00,COD,82869,"Measles epidemic response, vaccination, and health system strengthening",HEA
+2026-01-27T00:00:00+00:00,SYR,26000,Protection (overall),PRO
+2026-01-23T00:00:00+00:00,UKR,1000000,"Restoring power to hospitals, shelters and critical services",HEA
+2026-01-22T00:00:00+00:00,NGA,2500000,"lifesaving food, nutrition, healthcare, water, sanitation, and protection services",HEA
+2026-01-22T00:00:00+00:00,KEN,2500000,"Food and water for communities, safe water for people and livestock, and integrated health, nutrition, and water services",FSC
+2026-01-22T00:00:00+00:00,NGA,1000000,emergency food and nutrition assistance,FSC
+2026-01-21T00:00:00+00:00,SDN,8000000,"Restore and expand safe and quality educational services, rehabilitate damaged schools, and provide teachers with fair working conditions.",EDU
+2026-01-22T00:00:00+00:00,SYR,20000,"Protection of children from harm, exploitation, and coercion by armed actors",PRO-CPN
+2026-01-21T00:00:00+00:00,NGA,31800000,Food Security,FSC
+2026-01-21T00:00:00+00:00,PSE,32000,"psychosocial support, food, clothing, shelter, education",PRO-CPN
+2026-01-20T00:00:00+00:00,MOZ,513000,"Access to safe water, sanitation and hygiene, health services, education, child protection",WSH
+2026-01-19T00:00:00+00:00,SYR,10000,"Food, clean water, shelter, winter clothes, shoes, blankets, medical supplies and hygiene kits",FSC
+2026-01-19T00:00:00+00:00,YEM,18000000,FSC,FSC
+2026-01-19T00:00:00+00:00,PSE,0,"Emergency Shelter, Water, Sanitation and Hygiene, Health, Nutrition, Child Protection","SHL, WSH, HEA, NUT, PRO-CPN"
+2026-01-16T00:00:00+00:00,UKR,1665000,"Restoring energy, water, and heating services, providing emergency assistance, and supporting education and healthcare",HEA
+2026-01-16T00:00:00+00:00,NGA,55,Food Security,FSC
+2026-01-15T00:00:00+00:00,COL,200000,"Protection, Education, Shelter, Livelihoods",PRO
+2026-01-15T00:00:00+00:00,SDN,200000,"lifesaving food, water, healthcare and other basic support",HEA
+2026-01-14T00:00:00+00:00,ISR,156000,Water and sanitation infrastructure collapse,WSH
+2026-01-14T00:00:00+00:00,AFG,17,humanitarian food assistance,FSC
+2026-01-13T00:00:00+00:00,UKR,4100000,"life-saving support, including food, health care, shelter, protection, cash assistance and other aid",PRO
+2026-01-13T00:00:00+00:00,ISR,0,HEA,HEA
+2026-01-09T00:00:00+00:00,YEM,349,"Medical care, rehabilitation, and psychosocial support",PRO
+2026-01-12T00:00:00+00:00,unknown,318000000,Food Security,FSC
+2026-01-08T00:00:00+00:00,SYR,0,Emergency Shelter and Winterization support,SHL
+2026-01-08T00:00:00+00:00,SDN,500000,"Humanitarian aid, including health, nutrition, water and sanitation, protection, and economic recovery services",PRO
+2026-01-06T00:00:00+00:00,UKR,300000,"Agricultural assistance, early recovery, and resilience-building interventions",AGR
+2025-12-30T00:00:00+00:00,COD,35000,PRO-GBV,PRO-GBV
+2025-12-23T00:00:00+00:00,SOM,20000000,"Humanitarian food assistance, water, and nutrition assistance",FSC
+2025-12-25T00:00:00+00:00,BDI,200000,"food, clean water, safe shelter, healthcare and child-friendly spaces",HEA
+2025-12-25T00:00:00+00:00,USA,0,Urgent action to cut emissions and ramp up support for vulnerable communities,PRO
+2025-12-23T00:00:00+00:00,BDI,88000,Healthcare and essential support,HEA
+2025-12-22T00:00:00+00:00,LKA,2000000,"Disaster relief and recovery efforts, particularly in the hardest-hit districts, to support vulnerable communities, restore essential services and infrastructure, and address humanitarian needs.",PRO
+2025-12-19T00:00:00+00:00,ETH,1100000,"Immediate injection of funds to prevent collapse of refugee response, including food, water, and healthcare",MS
+2025-12-16T00:00:00+00:00,AFG,17000000,Food assistance to prevent severe hunger and malnutrition,FSC
+2025-12-16T00:00:00+00:00,SDN,0,"Reinvigorate diplomacy, Protect civilians and fight impunity, Target the most in need, and do it better",PRO
+2025-12-15T00:00:00+00:00,SUD,239000000,"Humanitarian assistance, food aid, nutrition programs, protection services, cash assistance, water deliveries, shelter",PRO
+2025-12-12T00:00:00+00:00,X,0,Water management and sustainable use,WSH
+2025-12-11T00:00:00+00:00,COD,0,"Maternal, newborn, and child health initiatives, and to recruit, train, and retain health workers, especially midwives, nurses, and community health workers.",HEA
+2025-12-10T00:00:00+00:00,UKR,0,"Healthcare under attack, rising pregnancy complications, and lack of access to medical services",HEA
+2025-12-10T00:00:00+00:00,MMR,16000000,Humanitarian assistance and protection,PRO
+2025-12-10T00:00:00+00:00,LKA,70000,Mental health support and psychosocial support for children,PRO-CPN
+2025-12-10T00:00:00+00:00,COD,200000,"basics – food, water, hygiene, shelter",PRO
+2025-12-09T00:00:00+00:00,EGY,0,NUT,NUT
+2025-12-08T00:00:00+00:00,SYR,0,"Truth, justice, and reparations for past and current human rights violations, including enforced disappearances, unlawful killings, and torture.",HEA
+2025-12-08T00:00:00+00:00,COD,64427,"Water, sanitation, hygiene and health services",WSH
+2025-12-05T00:00:00+00:00,SDN,0,famines,HEA
+2025-12-05T00:00:00+00:00,VNM,480000,safe water,WSH
+2025-12-03T00:00:00+00:00,SDN,100000000,emergency agricultural assistance,FSC
+2025-12-03T00:00:00+00:00,PAN,1200000,"integration, protection and access to essential services",MS
+2025-12-02T00:00:00+00:00,MOZ,100000,Protection (overall),PRO
+2025-12-01T00:00:00+00:00,IDN,1100000,"Emergency Shelter, Health, Food Security, Water, Sanitation and Hygiene","SHL, HEA, FSC, WSH"
+2025-11-28T00:00:00+00:00,MMR,0,PRO-MIN,PRO-MIN
+2025-11-28T00:00:00+00:00,JAM,180000,Mental health and psychosocial support programs,PRO-CPN
+2025-11-27T00:00:00+00:00,SDN,400,Child Protection,PRO-CPN
+2025-11-26T00:00:00+00:00,UKR,4600000,EDU,EDU
+2025-11-26T00:00:00+00:00,SSD,6000000,"Food Security, Water, Sanitation and Hygiene, Health",FSC
+2025-11-25T00:00:00+00:00,SOM,4570000,Food Security,FSC
+2025-11-25T00:00:00+00:00,PSE,13000,shelter support and health care coverage,SHL
+2025-11-25T00:00:00+00:00,NGA,35000000,Food Security,FSC
+2025-11-24T00:00:00+00:00,SDN,0,Protect schools from attack and ensure access to education for children affected by conflict,PRO-CPN
+2025-11-21T00:00:00+00:00,UKR,930000,Education and remote learning support,EDU
+2025-11-21T00:00:00+00:00,COL,1300000,Humanitarian access and protection of civilians from armed groups,PRO
+2025-11-20T00:00:00+00:00,CHD,417000000,"Sanitation, Nutrition, Education, Health, Housing, Water",FSC
+2025-11-19T00:00:00+00:00,X,11967,"Stop the use of explosive weapons in populated areas, Enforce stronger political and military policies to protect children in conflict, Invest in victim assistance, research, and rehabilitation for children affected by blast injuries",HEA
+2025-11-19T00:00:00+00:00,SOM,6000000,"Food assistance, nutrition and health programs",FSC
+2025-11-18T00:00:00+00:00,PSE,13000,"Emergency Shelter and Water, Sanitation and Hygiene",SHL
+2025-11-18T00:00:00+00:00,SDN,0,Food Security,FSC
+2025-11-14T00:00:00+00:00,UKR,500000,"Winterization, food, water, heat, energy, and clean water",PRO
+2025-11-14T00:00:00+00:00,SDN,100000,Protection,PRO
+2025-11-13T00:00:00+00:00,PSE,198273,"reconstruction, food, medicine, shelter, hygiene kits, cash provisions",PRO
+2025-11-13T00:00:00+00:00,PHL,5170000,"Children and their families are barely climbing out of one crisis before another strikes, pushing them back to zero. As the world experiences more frequent and intense climate shocks, the most vulnerable children should not have to pay the highest price.",PRO-CPN
+2025-11-11T00:00:00+00:00,YEM,0,FSC: Food Security,FSC
+2025-11-11T00:00:00+00:00,SDN,128990,"Humanitarian assistance, including food, water, medical care, shelter, and protection from violence",PRO
+2025-11-10T00:00:00+00:00,PHL,1400000,"essential supplies, medical assistance and emotional support",HEA
+2025-11-10T00:00:00+00:00,SSD,200000,Education and Resilience,EDU
+2025-11-10T00:00:00+00:00,SOM,0,"Food, water, health services, and protection from violations of their rights",FSC
+2025-11-07T00:00:00+00:00,null,0,humanitarian response,PRO
+2025-11-07T00:00:00+00:00,UKR,1700000,protection from attacks and humanitarian consequences,PRO
+2025-11-07T00:00:00+00:00,COD,10000000,Food Security,FSC
+2025-11-05T00:00:00+00:00,VUT,136000,"Climate action, disaster risk reduction, adaptation, and loss and damage",PRO
+2025-11-04T00:00:00+00:00,SSD,7560000,"Food and nutrition crisis, urgent humanitarian action needed",FSC
+2025-11-03T00:00:00+00:00,DRC,0,grave violations against children in conflict,PRO-CPN
+2025-11-03T00:00:00+00:00,AFG,320,"Health care, water and sanitation services, household, baby and hygiene kits, multipurpose cash assistance and support to children through childcare centres",HEA
+2025-10-31T00:00:00+00:00,SDN,260000,"HEA: Health, WSH: Water, Sanitation and Hygiene, NUT: Nutrition, SHL: Emergency Shelter, PRO-CPN: Child Protection",HEA
+2025-10-30T00:00:00+00:00,DOM,60000,WSH,WSH
+2025-10-29T00:00:00+00:00,SDN,260000,"Health care, food, clean water, medical care, shelter, protection",HEA
+2025-10-29T00:00:00+00:00,COD,26000000,Food assistance to address acute food insecurity and emergency hunger,FSC
+2025-10-29T00:00:00+00:00,SDN,130000,Protection (overall),PRO
+2025-10-28T00:00:00+00:00,JAM,6000,"Emergency food kits, logistics, telecommunications, supply chain, and food and cash assistance",FSC
+2025-10-27T00:00:00+00:00,SDN,400000,"basic needs, including clean water, food, and healthcare",HEA
+2025-10-26T00:00:00+00:00,DOM,1600000,"Prepositioning essential supplies, sharing early warning messages, providing cash to households at risk",HEA
+2025-10-23T00:00:00+00:00,PSE,1000000,"Improvements to water, sanitation, shelter, and nutrition",WSH
+2025-10-23T00:00:00+00:00,unknown,0,climate adaptation and resilience,HEA
+2025-10-23T00:00:00+00:00,SDN,30000000,"Humanitarian assistance, protection, and durable solutions for displaced populations",PRO
+2025-10-21T00:00:00+00:00,COD,58000,"Healthcare system is unequipped to respond to and slow down the outbreak, immediate and reinforced mobilization of national authorities, humanitarian agencies, and international partners is essential to contain the spread of the disease.",HEA
+2025-10-21T00:00:00+00:00,SDN,1000000,HEA,HEA
+2025-10-17T00:00:00+00:00,EGY,1000000,"Food aid, urgent nutrition support, shelter, healthcare, and livelihoods",FSC
+2025-10-17T00:00:00+00:00,IND,887000000,"Climate-resilient poverty reduction strategies, strengthened local capacities for adaptation, and scaled international redistribution and cooperative finance mechanisms.",HEA
+2025-10-16T00:00:00+00:00,SDN,638000,Emergency levels of hunger necessitating desperate survival measures to stave off the risk of death,HEA
+2025-10-16T00:00:00+00:00,AFG,212000,"Widespread destruction of water, sanitation and hygiene infrastructure, urgent need for temporary emergency water trucking, installation and repair of water supply systems, installation of temporary sanitation facilities, distribution of hygiene kits, and hygiene promotion activities.",WSH
+2025-10-15T00:00:00+00:00,HTI,1400000,"protection and sustainable solutions to restore dignity, foster resilience, and create lasting alternatives",PRO
+2025-10-15T00:00:00+00:00,BGD,1088,"Education, livelihoods, and improved security in the camps",HEA
+2025-10-13T00:00:00+00:00,SSD,300000,Protection,PRO
+2025-10-10T00:00:00+00:00,PHL,0,"Children are terrified. Yet again they have been forced from their schools and their homes by a massive earthquake. The impact of the earthquake will take time to become clear, but the needs of children must be prioritised, now and in the days and weeks ahead.",PRO-CPN
+2025-10-08T00:00:00+00:00,PSE,219783,HEA,HEA
+2025-10-08T00:00:00+00:00,PHL,2700000,Education and psychosocial support,EDU
+2025-10-08T00:00:00+00:00,ISR,64000,"Humanitarian relief, ceasefire, and protection of civilians",PRO
+2025-10-07T00:00:00+00:00,MOZ,100000,Protection (overall),PRO
+2025-10-05T00:00:00+00:00,X,0,Climate finance for developing countries,PRO
+2025-10-03T00:00:00+00:00,ISR,200000,"Humanitarian aid, including food, water, shelter, and medical care",HEA
+2025-10-03T00:00:00+00:00,SOM,4400000,FSC: Food Security,FSC
+2025-10-02T00:00:00+00:00,COD,64,Additional financial resources are also needed to further bolster the response.,HEA
+2025-10-02T00:00:00+00:00,PSE,446115,"Famine, displacement, and lack of access to aid, water, food, medicine, and shelter",FSC
+2025-10-01T00:00:00+00:00,AFG,1300000,"safe, warm, and dignified shelter, food and cash assistance, clean water, health services, and protection for women, children, and the elderly",PRO
+2025-09-29T00:00:00+00:00,MMR,1200000,"Protection, Food Security, Health, Shelter, Education, Nutrition, Water, Sanitation and Hygiene, Mine Action, Housing, Land and Property, Camp Coordination And Camp Management, Agriculture, Multi-Purpose Cash, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",PRO
+2025-09-26T00:00:00+00:00,HND,0,"Global health financing for HIV, TB, and malaria programs",HEA
+2025-09-26T00:00:00+00:00,MOZ,3260,"Emergency assistance, including food, shelter, and basic services",MS
+2025-09-25T00:00:00+00:00,MMY,9300000,Shelter,SHL
+2025-09-24T00:00:00+00:00,SOM,1840000,"Nutrition, health, and water services",NUT
+2025-09-24T00:00:00+00:00,SDN,1860000,Cholera vaccination campaign to reach 1.86 million people aged one year and older with oral cholera vaccines,HEA
+2025-09-24T00:00:00+00:00,AFG,0,"Health, Water, Sanitation and Hygiene, Household, Baby and Hygiene kits, Multipurpose Cash Assistance, Childcare Centres",HEA
+2025-09-24T00:00:00+00:00,ISR,0,Child Protection,PRO-CPN
+2025-09-23T00:00:00+00:00,SDN,0,"Protection of civilians from shelling, airstrikes, and other forms of violence, as well as access to humanitarian assistance, food, medicine, and safe shelter.",PRO
+2025-09-22T00:00:00+00:00,X,0,Stronger international dialogue and collective action to position migration as a driver of development and prosperity,PRO
+2025-09-19T00:00:00+00:00,ISR,0,"Famine, starvation, disease, shelter, aid delivery, fuel, medicine",FSC
+2025-09-18T00:00:00+00:00,KEN,179000,NUT,NUT
+2025-09-18T00:00:00+00:00,ISR,2000000,"Food, clean water, medical supplies, shelter items, and fuel",FSC
+2025-09-17T00:00:00+00:00,AFG,1400000,"shelter, medical care, essential supplies",SHL
+2025-09-17T00:00:00+00:00,YEM,354400,"Widespread damage to infrastructure, housing, health facilities, schools, water and sanitation systems, and livelihoods, with increased protection risks.",WSH
+2025-09-16T00:00:00+00:00,SDN,24600000,Food insecurity and malnutrition,FSC
+2025-09-16T00:00:00+00:00,PSE,469222,EDU,EDU
+2025-09-12T00:00:00+00:00,SSD,100000,"protection, shelter, clean water, basic dignity",PRO
+2025-09-12T00:00:00+00:00,COM,0,"Access to safe water and hygiene facilities, accurate information on how to protect themselves, and rapid access to treatment and vaccination when there are outbreaks.",HEA
+2025-09-12T00:00:00+00:00,AFG,0,Protection (overall),PRO
+2025-09-11T00:00:00+00:00,ISR,12800,"Nutrition and food aid, shelter, fuel, cooking gas, and food production inputs",NUT
+2025-09-12T00:00:00+00:00,MDG,558000,NUT,NUT
+2025-09-11T00:00:00+00:00,SDN,13000000,EDU,EDU
+2025-09-10T00:00:00+00:00,RWA,0,EDU,EDU
+2025-09-09T00:00:00+00:00,AFG,37000,Nutrition support,NUT
+2025-09-09T00:00:00+00:00,SDN,0,"Humanitarian and recovery operations, including access to clean water, protection services, health care, and mental health and psychosocial support",PRO
+2025-09-09T00:00:00+00:00,AFG,457000,"Multi-sectoral assistance, including shelter, water, food, protection, education and agricultural and livestock assistance",PRO
+2025-09-08T00:00:00+00:00,PSE,0,Prevent famine and allow humanitarian aid in,FSC
+2025-09-04T00:00:00+00:00,SYR,16000000,Agricultural assistance to prevent food insecurity and livelihood loss,AGR
+2025-09-06T00:00:00+00:00,PSE,132000,"Famine, acute malnutrition, and starvation",FSC
+2025-09-04T00:00:00+00:00,COD,43,"Health authorities are working to rapidly strengthen disease surveillance, treatment and infection prevention and control in health facilities, and to protect communities.",HEA
+2025-09-04T00:00:00+00:00,SDN,1000,"emergency medical supplies, food, water, tarpaulins, shelter, hygiene supplies, including toilets",HEA
+2025-09-04T00:00:00+00:00,COD,27300,PRO-GBV,PRO-GBV
+2025-09-03T00:00:00+00:00,AFG,5400,"shelter, food, clean water, medical assistance",SHL
+2025-09-03T00:00:00+00:00,SOM,0,HEA,HEA
+2025-09-03T00:00:00+00:00,CIV,340000,EDU,EDU
+2025-09-02T00:00:00+00:00,PAK,1000000,"Food, clean water, shelter, education",HEA
+2025-09-02T00:00:00+00:00,AFG,8000,Humanitarian assistance is desperately needed immediately to help the people of Afghanistan and avoid further tragedy.,HEA
+2025-09-01T00:00:00+00:00,ZWE,282000000,"Durable, community-led solutions to address hunger and malnutrition, including sustainable agriculture, social protection, and market access, with a focus on livelihoods and building resilience.",FSC
+2025-09-01T00:00:00+00:00,AFG,0,"Search and rescue teams and equipment, Emergency healthcare support, Food and clean water",PRO
+2025-08-29T00:00:00+00:00,ISR,0,Protection,PRO
+2025-08-28T00:00:00+00:00,PAK,1000000,"Food, clean water, healthcare, education",HEA
+2025-08-28T00:00:00+00:00,NGA,null,Nutrition support for severely malnourished children,NUT
+2025-08-26T00:00:00+00:00,SDN,600000,"Malnutrition, disease, and violence are claiming young lives daily. UNICEF is calling for immediate and full access to reach all children in need.",NUT
+2025-08-26T00:00:00+00:00,CAF,0,Child Protection,PRO-CPN
+2025-08-26T00:00:00+00:00,YEM,100000,"Emergency response to severe flooding, food insecurity, and displacement",FSC
+2025-08-22T00:00:00+00:00,PSE,0,HEA,HEA
+2025-08-22T00:00:00+00:00,ISR,0,"Humanitarian aid and services, commercial supplies, ceasefire, release of hostages and detainees",HEA
+2025-08-21T00:00:00+00:00,SYR,779473,"rebuild homes, schools, clinics, or water and electricity supplies",PRO
+2025-08-20T00:00:00+00:00,MOZ,50000,"Healthcare, food, shelter, and basic services",HEA
+2025-08-20T00:00:00+00:00,BGD,0,Cyclone preparedness and early warning systems,PRO-CPN
+2025-08-18T00:00:00+00:00,SDN,0,Protection (overall),PRO
+2025-08-18T00:00:00+00:00,UKR,0,Protection,PRO
+2025-08-18T00:00:00+00:00,SOM,300000,"Water, sanitation, and hygiene services",WSH
+2025-08-14T00:00:00+00:00,SDN,99700,HEA,HEA
+2025-08-13T00:00:00+00:00,SYR,190000,"Health, Nutrition, Water, Food, Shelter, Protection",HEA
+2025-08-13T00:00:00+00:00,SDN,250000,Food assistance to address hunger at scale,FSC
+2025-08-12T00:00:00+00:00,MMY,270000,"Food assistance to build a pathway to peace, stability and prosperity for people recovering from conflict, disasters, and the impact of climate change",FSC
+2025-08-11T00:00:00+00:00,TCD,288,"Health services, containment of the outbreak, support for vulnerable communities",HEA
+2025-08-09T00:00:00+00:00,ISR,2000000,Food Security,FSC
+2025-08-08T00:00:00+00:00,AFG,0,"Humanitarian assistance, food aid, shelter, child protection, health services, and education",HEA
+2025-08-08T00:00:00+00:00,SDG,0,"Reform aid systems to centre equity, strengthen country ownership, and rebuild global cooperation grounded in justice and solidarity",PRO
+2025-08-08T00:00:00+00:00,SDN,800000,HEA,HEA
+2025-08-07T00:00:00+00:00,SOM,22000,"Emergency shelter, food, water, health, and protection services, particularly for vulnerable groups like women, children, and the elderly.",HEA
+2025-08-06T00:00:00+00:00,SDN,33000,"Medical care, food, shelter, water, sanitation, hygiene, and protection from violence",HEA
+2025-08-06T00:00:00+00:00,THA,145000,"Emergency Shelter, Food Security, Water, Sanitation and Hygiene, Health, Child Protection, Education",SHL
+2025-08-05T00:00:00+00:00,SOM,2500000,"Food, water, and shelter due to drought conditions",FSC
+2025-08-04T00:00:00+00:00,SDN,2140,"Cholera outbreak, food, water, shelter, healthcare, and nutrition",HEA
+2025-08-01T00:00:00+00:00,PSE,32000,"Child protection services, psychological support, and safe shelter for displaced children",PRO-CPN
+2025-07-29T00:00:00+00:00,KEN,0,Food Security,FSC
+2025-07-30T00:00:00+00:00,COD,38000,Urgent and scaled-up efforts to prevent further spread and contain the disease across the region,HEA
+2025-07-29T00:00:00+00:00,ISR,0,"Immediate humanitarian response to alleviate widespread starvation, malnutrition, and disease, including scaling up the flow of goods, restoring basic services, and ensuring safe, unimpeded access to sufficient life-saving assistance.",HEA
+2025-07-28T00:00:00+00:00,PSE,0,malnutrition and medical treatment for pregnant and breastfeeding mothers,HEA
+2025-07-28T00:00:00+00:00,COD,400000,"Water, sanitation, and hygiene, as well as food and seed, are needed to reach 400,000 people in high-risk cholera zones.",WSH
+2025-07-25T00:00:00+00:00,SDN,77555,Additional funding to contain the outbreak,HEA
+2025-07-25T00:00:00+00:00,SDN,0,"Humanitarian operations massively underfunded, urgent increase in financial support is needed",PRO
+2025-07-23T00:00:00+00:00,EGY,0,Health,HEA
+2025-07-24T00:00:00+00:00,SOM,46600,"Health services, including immunization, to prevent and treat infectious diseases",HEA
+2025-07-24T00:00:00+00:00,AFG,0,Protection (overall),PRO
+2025-07-23T00:00:00+00:00,NGA,1300000,Food and nutrition aid due to critical funding shortfalls,FSC
+2025-07-22T00:00:00+00:00,PSE,0,"Humanitarian aid, including food, water, and medicine, to prevent starvation and death",HEA
+2025-07-22T00:00:00+00:00,USA,0,Food Security,FSC
+2025-07-22T00:00:00+00:00,PSE,0,"Humanitarian aid, including food, medical supplies, and other essential items",HEA
+2025-07-22T00:00:00+00:00,SDN,7700000,Food Security,FSC
+2025-07-21T00:00:00+00:00,COD,0,Health,HEA
+2025-07-18T00:00:00+00:00,SYR,0,Accountability and justice for human rights violations and abuses,PRO
+2025-07-18T00:00:00+00:00,X,11600000,Protection (overall),PRO
+2025-07-17T00:00:00+00:00,NGA,3160000,NUT,NUT
+2025-07-17T00:00:00+00:00,SYR,1200,"Emergency Shelter, Food Security, Health, and Protection",PRO
+2025-07-16T00:00:00+00:00,null,null,null,null
+2025-07-16T00:00:00+00:00,MOZ,134000,"Protection of medical workers and health facilities from violence, and to ensure a coordinated humanitarian response in places experiencing a surge of needs due to the arrival of displaced people.",HEA
+2025-07-15T00:00:00+00:00,AFG,1300000,"Humanitarian assistance, reintegration support, and community infrastructure investments",PRO
+2025-07-15T00:00:00+00:00,ISR,964,Protection (overall),PRO
+2025-07-15T00:00:00+00:00,X,0,Immunization,HEA
+2025-07-12T00:00:00+00:00,YEM,0,Polio vaccination for children,HEA
+2025-07-11T00:00:00+00:00,SDN,10000000,"Sustained delivery of food, nutrition, water and health assistance, and support to basic services and public infrastructure",FSC
+2025-07-11T00:00:00+00:00,SDN,40000,Nutrition,NUT
+2025-07-10T00:00:00+00:00,COD,51000,"Overcrowded shelters, food shortages, strained health services, limited access to clean water and sanitation, basic household items, shelter, and food distribution.",HEA
+2025-07-10T00:00:00+00:00,UKR,3500000,protection of children and provision of basic goods and services,PRO-CPN
+2025-07-09T00:00:00+00:00,PSE,44072,"Access to safe water, food, and aid",WSH
+2025-07-08T00:00:00+00:00,COD,1500000,"Health services, shelter, water, food, and care for vulnerable groups",HEA
+2025-07-08T00:00:00+00:00,AFG,836000,"Health services, food, shelter, medical care, vaccines, clean water, essential medicines",HEA
+2025-07-07T00:00:00+00:00,SDN,40000,emergency food assistance,FSC
+2025-07-04T00:00:00+00:00,UKR,222,"Child protection support, cash assistance, essential supplies, mental health, psychosocial support",PRO-CPN
+2025-07-04T00:00:00+00:00,X,0,Global Humanitarian Overview,PRO
+2025-07-04T00:00:00+00:00,HTI,1300000,Protection (overall),PRO
+2025-07-04T00:00:00+00:00,AFG,1400000,Protection (overall),PRO
+2025-07-03T00:00:00+00:00,SDN,0,"Healthcare attacks and looting of medical supplies, cholera outbreak, severe acute malnutrition in children",HEA
+2025-07-02T00:00:00+00:00,ISR,0,"Healthcare system support, medical supplies, fuel, body bags, protection of medical personnel and facilities",HEA
+2025-07-01T00:00:00+00:00,SDN,0,WSH,WSH
+2025-07-01T00:00:00+00:00,MENA,110000000,Protection,PRO
+2025-07-01T00:00:00+00:00,ISR,2000000,"Humanitarian aid, food, water, shelter, medical care, and protection from violence",HEA
+2025-06-30T00:00:00+00:00,AFG,714572,"food, medical care and support",HEA
+2025-06-30T00:00:00+00:00,EGY,1000000,Protection (overall),PRO
+2025-06-30T00:00:00+00:00,SDN,750000,Food Security,FSC
+2025-06-30T00:00:00+00:00,SDN,4000000,Food assistance and nutrition support,FSC
+2025-06-30T00:00:00+00:00,X,0,Gender equality funding,PRO-GBV
+2025-06-23T00:00:00+00:00,SDN,0,"Food assistance, particularly in areas of North Darfur and Khartoum, to address extreme hunger, high levels of malnutrition and mortality.",FSC
+2025-06-27T00:00:00+00:00,MMR,22000000,"Humanitarian assistance, protection from violence, and support for a peaceful, inclusive, and democratic society",PRO
+2025-06-25T00:00:00+00:00,KEN,700000,Food Security,FSC
+2025-06-25T00:00:00+00:00,X,0,"Global aid cuts, intensifying climate crisis, and lack of social protection systems",HEA
+2025-06-24T00:00:00+00:00,PSE,2100000,Energy access,PRO
+2025-06-24T00:00:00+00:00,MOZ,0,"Children who have been abducted need medical care, psychosocial assistance, and reintegration mechanisms that provide for their protection and well-being.",PRO-CPN
+2025-06-24T00:00:00+00:00,SWI,0,Humanitarian system reform,PRO
+2025-06-23T00:00:00+00:00,NPL,0,Early warning systems and anticipatory action to prepare for and respond to climate variability and change,PRO-CPN
+2025-06-23T00:00:00+00:00,BDI,478,"psychological support to overcome trauma and prevent low self-esteem, self-blame, isolation, stigmatization and discrimination",PRO-GBV
+2025-06-20T00:00:00+00:00,HTI,1300000,"Child Protection, Emergency Support for Displaced Families, Education, Health, Shelter, Food, Water, Sanitation, Hygiene",PRO-CPN
+2025-06-20T00:00:00+00:00,ISR,2000000,"Water, Sanitation and Hygiene",WSH
+2025-06-20T00:00:00+00:00,SSD,570000,transportation and protection services for displaced people,PRO
+2025-06-19T00:00:00+00:00,SDN,12000000,Gender-Based Violence,PRO-GBV
+2025-06-19T00:00:00+00:00,ISR,0,Protection,PRO
+2025-06-19T00:00:00+00:00,PSE,1100000,emergency shelter assistance,SHL
+2025-06-19T00:00:00+00:00,BDI,67000,"protection, shelter, food assistance, medical care",PRO
+2025-06-18T00:00:00+00:00,COD,0,HEA,HEA
+2025-06-18T00:00:00+00:00,PSE,0,Food Security and Health,FSC:HEA
+2025-06-17T00:00:00+00:00,LBY,60,"Search and rescue operations, safe disembarkation for survivors",PRO
+2025-06-17T00:00:00+00:00,SDN,0,"Hunger, child labour, forced marriage, school dropouts, and child trafficking",HEA
+2025-06-17T00:00:00+00:00,ARE,0,"Restore degraded agricultural lands to enhance food security, reduce poverty, and build sustainable and resilient agrifood systems",FSC
+2025-06-16T00:00:00+00:00,CHN,0,Mine clearance and support for mine survivors,PRO-CPN
+2025-06-16T00:00:00+00:00,SDN,24600000,"Urgent humanitarian action and a coordinated international effort to de-escalate conflict, stem displacement, and mount an urgent full-scale aid response.",FSC
+2025-06-15T00:00:00+00:00,AFG,0,Combating child wasting and other forms of malnutrition in Afghanistan,NUT
+2025-06-13T00:00:00+00:00,SDN,856783,"Refugees report serious human rights violations, including physical and sexual violence, arbitrary detention, and forced recruitment. About 60 per cent have been separated from family members.",PRO-GBV
+2025-06-13T00:00:00+00:00,IRN,0,Protection (overall),PRO
+2025-06-13T00:00:00+00:00,LBN,1170000,FSC: Food Security,FSC
+2025-06-13T00:00:00+00:00,HTI,1300000,Protection (overall),PRO
+2025-06-13T00:00:00+00:00,SSD,2300000,Food Security and Nutrition,FSC
+2025-06-12T00:00:00+00:00,SOM,47000,Nutritional support and emergency cash assistance to help buy food and essentials,NUT
+2025-06-12T00:00:00+00:00,SDN,2600000,Cholera vaccination and outbreak control,HEA
+2025-06-12T00:00:00+00:00,ITA,0,Protection (overall),PRO
+2025-06-12T00:00:00+00:00,SUD,14300000,Protection (overall),PRO
+2025-06-12T00:00:00+00:00,COD,0,PRO-GBV,PRO-GBV
+2025-06-11T00:00:00+00:00,AFG,138000000,"Child labour elimination, education, social protection, child protection, decent work for adults and youth",PRO-CPN
+2025-06-10T00:00:00+00:00,X,0,Safe and flexible ways to access existing systems for refugees,PRO
+2025-06-10T00:00:00+00:00,SDN,4000000,"Food and nutrition support, especially in areas at high risk of famine",HEA
+2025-06-10T00:00:00+00:00,SSD,150000,"Healthcare services, medical supplies, and security protection",HEA
+2025-06-09T00:00:00+00:00,NGA,0,"Shelter, Water, Sanitation and Hygiene, Health",WSH
+2025-06-07T00:00:00+00:00,NER,7000,"Medical and psychological care, food, drinking water, shelter, protection from violence",HEA
+2025-06-06T00:00:00+00:00,null,null,null,null
+2025-06-05T00:00:00+00:00,BGD,300000,EDU,EDU
+2025-06-04T00:00:00+00:00,SDN,0,"Protection and assistance in the face of violence, insecurity, and hunger",PRO
+2025-06-03T00:00:00+00:00,BFA,null,humanitarian assistance and protection services,PRO
+2025-06-03T00:00:00+00:00,SDN,0,Food Security,FSC
+2025-06-03T00:00:00+00:00,SSD,165000,Protection (overall),PRO
+2025-06-03T00:00:00+00:00,TCD,1200000,"protection, shelter, food, water and sanitation",PRO
+2025-06-03T00:00:00+00:00,unknown,0,general support for people affected by crisis and displacement,PRO
+2025-06-02T00:00:00+00:00,NGA,3000,"emergency shelter, clean water and sanitation hygiene and psychosocial support for children and other vulnerable people",SHL
+2025-06-02T00:00:00+00:00,SWI,0,"Disaster displacement is not a future problem. It’s happening now, it’s happening more often, and it can happen anywhere, although it is hitting the poorest the hardest.",PRO
+2025-06-02T00:00:00+00:00,MMY,0,"Education support, food, drinking water, shelter",EDU
+2025-05-21T00:00:00+00:00,ISR,0,Protection (overall),PRO
+2025-05-31T00:00:00+00:00,BGD,230000,Immediate and sustained financial aid to prevent the closure of learning facilities and ensure the education of Rohingya refugee children.,EDU
+2025-05-26T00:00:00+00:00,SSD,0,HEA,HEA
+2025-05-30T00:00:00+00:00,PSE,2000000,"Humanitarian aid, unimpeded access, and an immediate ceasefire",HEA
+2025-05-29T00:00:00+00:00,COD,1300000,EDU,EDU
+2025-05-29T00:00:00+00:00,JOR,70000,Maternal and newborn healthcare,HEA
+2025-05-29T00:00:00+00:00,GTM,0,"Healthcare, food security, shelter, medical services, and humanitarian support for people in extremely vulnerable situations",HEA
+2025-05-28T00:00:00+00:00,SDN,0,"Cholera outbreak, water shortages, malnutrition, and lack of basic services",HEA
+2025-05-28T00:00:00+00:00,SDN,0,Hunger and malnutrition due to conflict and climate change,HEA
+2025-05-27T00:00:00+00:00,SYR,900,"Risk education, survey and clearance work, and emergency response",PRO-CPN
+2025-05-28T00:00:00+00:00,SDN,659,PRO-CPN,PRO-CPN
+2025-05-27T00:00:00+00:00,SSD,3000000,Food security and malnutrition prevention and treatment,FSC
+2025-05-27T00:00:00+00:00,SOM,3800000,"Food and water security, medical care, and shelter",FSC
+2025-05-27T00:00:00+00:00,AFG,0,Climate change displacement and adaptation,PRO
+2025-05-27T00:00:00+00:00,SWI,0,disaster risk reduction and prevention,PRO
+2025-05-26T00:00:00+00:00,UKR,0,Protection (overall),PRO
+2025-05-23T00:00:00+00:00,MMR,427,Protection (overall),PRO
+2025-05-23T00:00:00+00:00,COD,10300000,Food Security,FSC
+2025-05-23T00:00:00+00:00,Moz,25000,"Protection, including support for survivors of gender-based violence, mental health services, and access to civil documentation",PRO
+2025-05-23T00:00:00+00:00,SSD,0,Protection (overall),PRO
+2025-05-22T00:00:00+00:00,PSE,2000000,Food assistance to prevent starvation,FSC
+2025-05-22T00:00:00+00:00,KEN,720000,Food assistance to prevent hunger and malnutrition,FSC
+2025-05-21T00:00:00+00:00,SYR,16500000,"Humanitarian assistance, protection, food security, and health services",PRO
+2025-05-21T00:00:00+00:00,LBN,1170000,Food Security,FSC
+2025-05-20T00:00:00+00:00,ISR,2000000,"Survival aid, including food, water, and nutritional supplements",HEA
+2025-05-20T00:00:00+00:00,YEM,0,"Multi-Purpose Cash, Emergency Shelter, Food Security, Health, Protection, Water, Sanitation and Hygiene, Education, Nutrition, Child Protection, Housing, Land and Property, Camp Coordination And Camp Management, Agriculture, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",MS
+2025-05-20T00:00:00+00:00,COD,28000000,Food assistance to the most vulnerable,FSC
+2025-05-20T00:00:00+00:00,DRC,95893,Health,HEA
+2025-05-19T00:00:00+00:00,EGY,28000,Protection of women and girls from violence and humanitarian aid,PRO-GBV
+2025-05-19T00:00:00+00:00,LBN,0,Protection (overall),PRO
+2025-05-17T00:00:00+00:00,MMY,509400,Food assistance and shelter,FSC
+2025-05-16T00:00:00+00:00,SDN,818015,"Health, Nutrition, Protection, and Education for refugees, returnees, and host population, including children",HEA
+2025-05-16T00:00:00+00:00,COD,0,PRO-GBV,PRO-GBV
+2025-05-16T00:00:00+00:00,DRC,0,Food Security,FSC
+2025-05-15T00:00:00+00:00,PSE,1150000,Nutrition support for children at risk of malnutrition,NUT
+2025-05-14T00:00:00+00:00,SYR,1400000,"reconstruction, shelter, property rights, livelihood opportunities, access to electricity, clean water, and healthcare",PRO
+2025-05-13T00:00:00+00:00,SOM,55000,nutrition services,NUT
+2025-05-13T00:00:00+00:00,HTI,60000,"GBV prevention, mitigation and response activities",PRO-GBV
+2025-05-13T00:00:00+00:00,SWD,308000000,"Global humanitarian assistance due to funding crisis, escalating conflict, climate change, food insecurity, and disease outbreaks",PRO
+2025-05-12T00:00:00+00:00,ETH,0,"Climate change impacts, droughts, floods, hunger, insecurity, displacement",HEA
+2025-05-13T00:00:00+00:00,SDN,11600000,Protection (overall),PRO
+2025-05-12T00:00:00+00:00,SOM,4600000,Food and nutrition support for women and children,FSC
+2025-05-12T00:00:00+00:00,MEX,4500,"Comprehensive care for survivors of extreme violence and torture, including medical care, psychology sessions, and physical therapy",PRO-CPN
+2025-05-12T00:00:00+00:00,ISR,1950000,Food Security,FSC
+2025-05-09T00:00:00+00:00,SDN,0,HEA,HEA
+2025-05-08T00:00:00+00:00,YEM,10600000,Health and WASH services,HEA
+2025-05-08T00:00:00+00:00,SDN,0,Food assistance,FSC
+2025-05-08T00:00:00+00:00,UKR,209,Protection (overall),PRO
+2025-05-08T00:00:00+00:00,SSD,300000,Nutrition supplies to treat moderate and severe cases of malnutrition,NUT
+2025-05-06T00:00:00+00:00,SDN,779,Emergency Health and Nutrition support,HEA
+2025-05-06T00:00:00+00:00,COD,1000000,Protection (overall),PRO
+2025-05-06T00:00:00+00:00,SDN,20000,Protection,PRO
+2025-05-06T00:00:00+00:00,SSD,0,Medical infrastructure and emergency care for tens of thousands of people,HEA
+2025-05-05T00:00:00+00:00,PAK,0,Healthcare and disaster response systems are failing to meet the needs of children and older people who are most at risk of death and disease amid extreme weather events related to climate change.,HEA
+2025-05-05T00:00:00+00:00,COD,72000,"Health facilities are overwhelmed, with many unable to provide basic services like nutrition, primary care, and reproductive health.",HEA
+2025-05-05T00:00:00+00:00,MEX,0,"Protection of migrant children from violence, family separation, and uncertainty at the northern border",PRO-CPN
+2025-05-02T00:00:00+00:00,ISR,0,"Humanitarian aid, including food, medicines, and life-saving supplies",HEA
+2025-05-02T00:00:00+00:00,AFG,1000000,"shelter, emergency healthcare, food, and water",PRO
+2025-05-02T00:00:00+00:00,SDN,0,"Protection from gender-based violence, legal assistance, health care, and economic support",PRO-GBV
+2025-05-01T00:00:00+00:00,SDN,300000,"Humanitarian aid, protection, and access to basic necessities such as food, water, healthcare, and shelter.",PRO
+2025-05-01T00:00:00+00:00,AFG,0,anticipatory action against drought,FSC
+2025-05-01T00:00:00+00:00,COD,20000,Vaccination and outbreak response,HEA
+2025-04-30T00:00:00+00:00,HTI,0,Protection (overall),PRO
+2025-04-30T00:00:00+00:00,AFG,0,"socioeconomic crisis, subsistence shortfall, widening inequalities, access to adequate housing, healthcare and essential goods",HEA
+2025-04-29T00:00:00+00:00,AFG,251000,Protection (overall),PRO
+2025-04-28T00:00:00+00:00,SDN,7200,Food Security,FSC
+2025-04-28T00:00:00+00:00,MMY,1300000,"Immediate humanitarian aid, early recovery needs, access to more permanent shelter, sustainable access to water and sanitation, support to restore shattered livelihoods",PRO
+2025-04-26T00:00:00+00:00,UGA,14,Health,HEA
+2025-04-25T00:00:00+00:00,PSE,0,Food Security,FSC
+2025-04-25T00:00:00+00:00,COL,0,"Protection of vulnerable populations, including children, women, and displaced families, from violence, exploitation, and abuse.",PRO
+2025-04-16T00:00:00+00:00,SYR,416000,NUT,NUT
+2025-04-25T00:00:00+00:00,PSE,2200000,"Humanitarian assistance, food, fuel, shelter, medical aid, and protection from violence",PRO
+2025-04-24T00:00:00+00:00,DZA,0,Surveys and controls in potential spring breeding areas to avoid further development,HEA
+2025-04-24T00:00:00+00:00,MMY,200000,Emergency Shelter,SHL
+2025-04-23T00:00:00+00:00,COD,0,PRO-CPN,PRO-CPN
+2025-04-22T00:00:00+00:00,SOM,30000,"cash, food, and sanitation assistance",FSC
+2025-04-22T00:00:00+00:00,ETH,10000000,Food Security,FSC
+2025-04-20T00:00:00+00:00,SDN,400000,"Humanitarian access to Al Fasher and surrounding areas, flexible and front-loaded funding",HEA
+2025-04-17T00:00:00+00:00,HTI,2850000,FSC: Food Security,FSC
+2025-04-17T00:00:00+00:00,PSE,47000,EDU,EDU
+2025-04-16T00:00:00+00:00,BFA,null,"nutrition, health, protection, education",HEA
+2025-04-16T00:00:00+00:00,SDN,70000,"Food, shelter, water, health services, and mental health support",FSC
+2025-04-16T00:00:00+00:00,PSE,50000,"Humanitarian aid, including food, fuel, medical supplies, and protection of healthcare facilities and personnel",HEA
+2025-04-15T00:00:00+00:00,HTI,1000000,"Shelter, water, medical care, and protection from violence",PRO
+2025-04-15T00:00:00+00:00,ITA,3803,"Child protection, psychosocial support, health and specialized services for those at risk of violence, exploitation and abuse",PRO-CPN
+2025-04-15T00:00:00+00:00,COD,10000,"Emergency Shelter, Food, Medical care, Clean water",SHL
+2025-04-15T00:00:00+00:00,SDN,30000000,"Humanitarian assistance, including emergency shelter, water, sanitation, and health services",PRO
+2025-04-15T00:00:00+00:00,SDN,15000000,"Urgent action to address violence, hunger, and disease, and to provide access to essential services and funding.",HEA
+2025-04-14T00:00:00+00:00,SDN,24600000,"Humanitarian intervention, food, shelter, protection, and access to aid",PRO
+2025-04-14T00:00:00+00:00,MMY,1600000,large-scale debris removal and repairs and reconstruction of critical infrastructure and homes,PRO
+2025-04-14T00:00:00+00:00,AFG,44900,"Food, shelter, household items, education, identification documents, clothing, bedding, water containers, lighting",FSC
+2025-04-14T00:00:00+00:00,SDN,0,"Humanitarian assistance, protection of civilians, humanitarian personnel, and medical teams, removal of restrictions on humanitarian supplies and staff, and unhindered access to affected areas.",PRO
+2025-04-13T00:00:00+00:00,UKR,20,"Emergency Shelter, Health, and Food Security",SHL.HEA.FSC
+2025-04-12T00:00:00+00:00,SDN,700000,"Humanitarian aid, protection of civilians and humanitarian personnel, safe access to deliver life-saving assistance",PRO
+2025-04-11T00:00:00+00:00,SYR,0,"Support with shelter, livelihoods, protection and legal assistance",PRO
+2025-04-11T00:00:00+00:00,MMY,6300000,protection and assistance,PRO
+2025-04-11T00:00:00+00:00,SDN,24600000,Food assistance and unimpeded access to preposition food supplies,FSC
+2025-04-10T00:00:00+00:00,SOM,100000,"Emergency medical supplies, food, shelter, and protection from violence",HEA
+2025-04-10T00:00:00+00:00,SDN,30000000,"Urgent assistance to survive, including food, water, and medical care",HEA
+2025-04-09T00:00:00+00:00,ZWE,0,"Strengthening early warning and disease surveillance, laboratory systems, and public health and community workforce",HEA
+2025-04-09T00:00:00+00:00,SSD,0,HEA,HEA
+2025-04-09T00:00:00+00:00,UKR,1074,"Protection from civilian casualties, particularly in areas controlled by the government of Ukraine, and deliberate attacks on hospitals and other civilian infrastructure.",PRO
+2025-04-08T00:00:00+00:00,UGA,600000,"Emergency Shelter, Food Security, Health, Water, Sanitation and Hygiene",SHL
+2025-04-08T00:00:00+00:00,AFG,0,Economic resilience and climate change adaptation,PRO
+2025-04-08T00:00:00+00:00,HTI,2700000,Child Protection,PRO-CPN
+2025-04-07T00:00:00+00:00,ISR,2100000,"Food, medicine, fuel, shelter, medical and trauma supplies",FSC
+2025-04-07T00:00:00+00:00,MMY,69000,WSH,WSH
+2025-04-07T00:00:00+00:00,CHD,0,HEA,HEA
+2025-04-04T00:00:00+00:00,COD,14600000,FSC,FSC
+2025-04-05T00:00:00+00:00,ISR,1000000,"Humanitarian aid, food, safe water, shelter, medical supplies",HEA
+2025-04-04T00:00:00+00:00,PAK,0,Protection (overall),PRO
+2025-04-04T00:00:00+00:00,MMY,173855,"lifesaving reproductive health services, clean water, food, shelter, medicines, medical equipment",HEA
+2025-04-04T00:00:00+00:00,SSD,4500000,"Child protection, education, and mental health support",PRO-CPN
+2025-04-04T00:00:00+00:00,MMY,1200000,"Emergency shelter kits, relief items, legal assistance, psychosocial support, interventions for children, women and people with disabilities",PRO
+2025-04-03T00:00:00+00:00,MMR,110000,"Food, education, infrastructure, psychosocial support",FSC
+2025-04-03T00:00:00+00:00,MMY,10400000,"Shelter, food, health services, water, sanitation, and mental health and psychosocial support",PRO
+2025-04-02T00:00:00+00:00,COD,10000000,Food and nutrition assistance,FSC
+2025-04-02T00:00:00+00:00,COD,1120000,"Emergency aid, food security, shelter, sanitation, water, education, land rights reform",PRO
+2025-04-01T00:00:00+00:00,ECU,144650,"Severe flooding and landslides, housing damage, displacement",PRO
+2025-04-01T00:00:00+00:00,MMR,0,"Shelter, food, clean water, essential household items",SHL
+2025-04-01T00:00:00+00:00,SSD,null,Protection of children from recruitment and violence,PRO-CPN
+2025-03-31T00:00:00+00:00,SDN,10000,"safe water, cholera vaccination campaigns, treatment capacity",MS
+2025-03-30T00:00:00+00:00,MMY,0,"Emergency Shelter, Health, Nutrition, Education, Protection",SHL.HEA.NUT.EDU.PRO
+2025-03-28T00:00:00+00:00,ISR,830,protection from war and humanitarian aid,PRO
+2025-03-28T00:00:00+00:00,MMR,0,"Significant damage, potential dam bursts, electricity and communications cut off, humanitarian assistance, acute food insecurity",HEA
+2025-03-28T00:00:00+00:00,BGD,1000000,"Healthcare, nutrition, and water supply",HEA
+2025-03-27T00:00:00+00:00,CAF,679000,"Comprehensive support, including access to housing, employment and essential services, to rebuild their lives and contribute to their communities.",PRO
+2025-03-27T00:00:00+00:00,COD,28000000,"Food and nutrition assistance, emergency food production support",FSC
+2025-03-26T00:00:00+00:00,null,null,null,null
+2025-03-26T00:00:00+00:00,SDN,825000,Protection of children and humanitarian access,PRO
+2025-03-26T00:00:00+00:00,COD,700000,"Child protection, demobilization and reintegration of recruited children, assistance for physical and psychological recovery",PRO-CPN
+2025-03-26T00:00:00+00:00,YEM,17,"Food, water, health care, and access to education and health services",FSC
+2025-03-26T00:00:00+00:00,AFG,2200000,EDU,EDU
+2025-03-25T00:00:00+00:00,HTI,128000,Humanitarian assistance for children suffering from severe acute malnutrition,HEA
+2025-03-25T00:00:00+00:00,NGA,12600,Immediate relief and long-term recovery support,PRO-CPN
+2025-03-25T00:00:00+00:00,SYR,0,Protection (overall),PRO
+2025-03-24T00:00:00+00:00,ISR,120000,"Food, water, medical supplies, fuel, electricity, and protection for aid workers",FSC
+2025-03-25T00:00:00+00:00,X,0,"Global funding cuts could also undermine monitoring and tracking efforts, making it harder to reach the most vulnerable children, the Inter-agency Group warned.",HEA
+2025-03-25T00:00:00+00:00,EGY,20000,"Medical treatment, child protection services, and other forms of aid",HEA
+2025-03-25T00:00:00+00:00,COD,100000,"Healthcare, food, shelter, and protection from violence",HEA
+2025-03-24T00:00:00+00:00,BDI,70000,Food assistance to support refugees fleeing violence in DRC,FSC
+2025-03-24T00:00:00+00:00,BGD,1480000,Protection (overall),PRO
+2025-03-24T00:00:00+00:00,SSD,178000,WSH,WSH
+2025-03-22T00:00:00+00:00,AFG,445000,Education,EDU
+2025-03-21T00:00:00+00:00,AFR,0,TB control and funding,HEA
+2025-03-21T00:00:00+00:00,COD,0,"Shelter, food, water, sanitation, health care, protection",SHL
+2025-03-21T00:00:00+00:00,SDN,2400000,"Humanitarian aid, unimpeded access, protection of hospitals and civilian infrastructure, security guarantees for frontline workers",HEA
+2025-03-21T00:00:00+00:00,UKR,737000,Protection (overall),PRO
+2025-03-20T00:00:00+00:00,PSE,0,Child Protection,PRO-CPN
+2025-03-20T00:00:00+00:00,X,0,TB care and support services,HEA
+2025-03-20T00:00:00+00:00,BDI,120000,Food assistance,FSC
+2025-03-19T00:00:00+00:00,ETH,116000000,Access to safe drinking water and food,WSH
+2025-03-19T00:00:00+00:00,PER,8000,Humanitarian assistance,MS
+2025-03-19T00:00:00+00:00,YEM,35442,"Healthcare infrastructure, food assistance, vaccination efforts, and targeted food distribution programmes",HEA
+2025-03-19T00:00:00+00:00,COD,7800000,"Health system collapse, preventable diseases, lack of testing centers and functional hospitals, water and sanitation infrastructure destruction",HEA
+2025-03-19T00:00:00+00:00,X,0,Climate change mitigation and adaptation,HEA
+2025-03-18T00:00:00+00:00,SYR,0,Transition and rebuilding,PRO
+2025-03-18T00:00:00+00:00,SSD,5400000,Protection (overall),PRO
+2025-03-17T00:00:00+00:00,AFG,1600000,"Health care services, funding for health facilities",HEA
+2025-03-14T00:00:00+00:00,SDN,0,Protection,PRO
+2025-03-14T00:00:00+00:00,UKR,20000,"Medical care, housing, access to medical care, and psychological support",HEA
+2025-03-14T00:00:00+00:00,SYR,0,"Accountability for crimes committed during the Assad era and by all warring parties since 2011, and support for victims of atrocities to prevent them from taking the law into their own hands.",PRO
+2025-03-14T00:00:00+00:00,SDN,16000000,"Protection (overall) and Food Security and Water, Sanitation and Hygiene and Health and Nutrition",PRO
+2025-03-14T00:00:00+00:00,MMY,15000000,Food assistance to prevent hunger and starvation,FSC
+2025-03-14T00:00:00+00:00,PSE,1300000,Food Security,FSC
+2025-03-14T00:00:00+00:00,COD,400,Child Protection,PRO-CPN
+2025-03-13T00:00:00+00:00,MMR,19900000,Food Security,FSC
+2025-03-13T00:00:00+00:00,BAN,1000000,"Food rations will be halved, leading to desperation and potentially dangerous decisions, including sending children on boat journeys.",FSC
+2025-03-13T00:00:00+00:00,SOM,1700000,"Nutrition treatment, food distribution, and strengthened healthcare services",NUT
+2025-03-13T00:00:00+00:00,COD,40000,"Shelter, First aid, Mental health support, Sanitation, Hygiene products, Mosquito nets, Assistance for pregnant women and people with disabilities, Bedding, Clean drinking water, Food",SHL
+2025-03-13T00:00:00+00:00,TZA,10,HEA,HEA
+2025-03-12T00:00:00+00:00,SDN,1000000,"Essential medical supplies, food, and safe passage for humanitarian aid",HEA
+2025-03-12T00:00:00+00:00,AFG,4799,"Community-level, rapid, targeted vaccination in the districts most affected by ongoing outbreaks",HEA
+2025-03-11T00:00:00+00:00,AFG,131000000,"Health, nutrition and education programmes for millions of children",HEA
+2025-03-11T00:00:00+00:00,BGD,0,Nutrition treatment for severe acute malnutrition in Rohingya refugee camps,NUT
+2025-03-10T00:00:00+00:00,ISR,0,"Humanitarian assistance, diversified assistance, construction materials, medical supplies, and other essential services",PRO
+2025-03-10T00:00:00+00:00,PHL,130000000,Education,EDU
+2025-03-10T00:00:00+00:00,MOZ,780468,"Emergency Shelter, Food Security, Health, Water, Sanitation and Hygiene",WSH
+2025-03-10T00:00:00+00:00,SYR,1000,"protection, food, shelter, and protection",PRO
+2025-03-08T00:00:00+00:00,UKR,21,Protection (overall),PRO
+2025-03-07T00:00:00+00:00,SYR,750000,Multi-sector assistance to displaced communities and returnees,MS
+2025-03-07T00:00:00+00:00,BDI,63000,"Emergency Shelter, Food, Water, Sanitation, Health, Protection, Education",SHL
+2025-03-07T00:00:00+00:00,PSE,0,"Humanitarian aid, food, clean water, shelter, and healthcare",PRO
+2025-03-07T00:00:00+00:00,SEN,0,Food assistance to prevent hunger and malnutrition,FSC
+2025-03-06T00:00:00+00:00,HTI,180000,WSH,WSH
+2025-03-06T00:00:00+00:00,SYR,628,Mine Action,PRO-CPN
+2025-03-06T00:00:00+00:00,COD,375000,EDU,EDU
+2025-03-06T00:00:00+00:00,SDN,0,Protection (overall),PRO
+2025-03-05T00:00:00+00:00,COD,0,"Protection for human rights defenders, including support for temporary relocation along with their families, and protection from reprisals, sexual violence, and other forms of harm.",PRO
+2025-03-04T00:00:00+00:00,SDN,14200000,Food Security,FSC
+2025-03-04T00:00:00+00:00,COD,0,Protection (overall),PRO
+2025-03-04T00:00:00+00:00,SDN,221,PRO-GBV,PRO-GBV
+2025-03-03T00:00:00+00:00,COD,700000,WSH,WSH
+2025-03-03T00:00:00+00:00,HTI,187000,"Health, Nutrition, Shelter, Water, Sanitation and Hygiene, Protection",HEA
+2025-03-02T00:00:00+00:00,PSE,1000000,"safety, shelter, healthcare, food, psychological support",PRO
+2025-02-28T00:00:00+00:00,LBN,2400000,"Urgent support to heal, rebuild lives, and survive lasting impacts of crisis",HEA
+2025-02-28T00:00:00+00:00,PSE,1400000,Food Security,FSC
+2025-02-26T00:00:00+00:00,SSD,160000,"Healthcare system support, emergency and surgical care, disease prevention and treatment",HEA
+2025-02-28T00:00:00+00:00,PSE,603000,polio vaccination,HEA
+2025-02-27T00:00:00+00:00,SDN,2200,WSH,WSH
+2025-02-27T00:00:00+00:00,AFG,29,WSH,WSH
+2025-02-27T00:00:00+00:00,COD,21200000,"lifesaving assistance to 11 million people, including 7.8 million internally displaced persons",PRO
+2025-02-26T00:00:00+00:00,COD,0,"grave violations against children, including sexual violence, abductions, killing and maiming, and attacks on schools and hospitals",PRO-GBV
+2025-02-26T00:00:00+00:00,ISR,40000,"protection, food, healthcare, water, education, shelter",PRO
+2025-02-25T00:00:00+00:00,COD,234000000,EDU,EDU
+2025-02-25T00:00:00+00:00,UKR,2500000,"housing, energy, education, health, social protection, energy, transport, water supply, demining, and civil protection",PRO
+2025-02-24T00:00:00+00:00,UKR,10600000,"Emergency shelter, humanitarian aid, psychosocial first aid, financial assistance, rebuilding homes, restoring documents, accessing compensation",SHL
+2025-02-24T00:00:00+00:00,SOM,4340000,Food Security,FSC
+2025-02-24T00:00:00+00:00,SDN,500000,Protection (overall),PRO
+2025-02-21T00:00:00+00:00,UKR,0,Protection (overall),PRO
+2025-02-21T00:00:00+00:00,BDI,40000,"shelter, food, latrines, relocation, vaccinations",PRO
+2025-02-21T00:00:00+00:00,UKR,2000000,"Humanitarian support, repair and restoration of critical public infrastructure, creation and retainment of jobs",PRO
+2025-02-20T00:00:00+00:00,COL,122000,"Access to healthcare, particularly for at-risk communities including migrants, pregnant women, and children.",HEA
+2025-02-20T00:00:00+00:00,COD,0,Nutrition assistance for malnourished children and vulnerable populations,NUT
+2025-02-20T00:00:00+00:00,VUT,335000,Multi-Purpose Cash for food and necessities,MPC
+2025-02-19T00:00:00+00:00,TZA,0,Health,HEA
+2025-02-17T00:00:00+00:00,COD,300000,"Emergency Shelter, Food Security, Health, Water, Sanitation and Hygiene, Nutrition, Education, Child Protection, Gender-Based Violence, Multi-Purpose Cash, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",SHL
+2025-02-19T00:00:00+00:00,PSE,591000,Mass vaccination campaign to protect children from polio,HEA
+2025-02-19T00:00:00+00:00,UKR,6700000,"Gender-Based Violence, Protection, Health, Education, Shelter, Nutrition, Food Security, Water, Sanitation and Hygiene, Housing, Land and Property, Mine Action, Camp Coordination And Camp Management, Agriculture, Multi-Purpose Cash, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",PRO-GBV
+2025-02-18T00:00:00+00:00,PSE,0,Reconstruction and recovery needs in Gaza are estimated to require $53 billion,PRO
+2025-02-18T00:00:00+00:00,UKR,10600000,Protection (overall),PRO
+2025-02-18T00:00:00+00:00,BDI,10000,Protection (overall),PRO
+2025-02-18T00:00:00+00:00,HTI,5500000,Food and humanitarian aid,FSC
+2025-02-17T00:00:00+00:00,ISR,700000,"Water and sanitation infrastructure repair, fuel for generators, and aid to prevent a public health disaster",WSH
+2025-02-17T00:00:00+00:00,COD,0,EDU,EDU
+2025-02-17T00:00:00+00:00,SYR,0,Urgent funding for survey and clearance efforts and victim assistance,PRO-MIN
+2025-02-14T00:00:00+00:00,COD,450000,"Food, water, shelter, and protection services for women and girls",FSC
+2025-02-17T00:00:00+00:00,SDN,26,Protection (overall),PRO
+2025-02-16T00:00:00+00:00,SOM,2500000,Polio vaccination and strengthening of routine immunization efforts,HEA
+2025-02-14T00:00:00+00:00,EGY,0,Health,HEA
+2025-02-14T00:00:00+00:00,UKR,0,"Financial assistance, food, necessities, employment assistance, healthcare",PRO
+2025-02-14T00:00:00+00:00,COD,350000,"shelter, health care, and protection services",PRO
+2025-02-13T00:00:00+00:00,SDN,1057577,"Protection, education, health, nutrition, food security, livelihoods, WASH, energy, environment, and shelter",PRO
+2025-02-13T00:00:00+00:00,SYR,3400000,"Large-scale destruction and lack of savings, basic services and jobs",PRO
+2025-02-12T00:00:00+00:00,COD,52,protection and support for affected people and communities,PRO
+2025-02-12T00:00:00+00:00,PSE,0,"Humanitarian aid, including shelter, food, water, and medical care",HEA
+2025-02-11T00:00:00+00:00,DJI,1000000,"food, non-food items, medical care, water, sanitation and hygiene, protection, psycho-social support, along with voluntary return and reintegration support",PRO
+2025-02-11T00:00:00+00:00,SDA,31000,Protection (overall) and Food Security,PRO
+2025-02-11T00:00:00+00:00,HTI,289,Protection (overall),PRO
+2025-02-10T00:00:00+00:00,PSE,76600,Protection (overall),PRO
+2025-02-10T00:00:00+00:00,LBY,49,"humanitarian assistance to vulnerable migrants, strengthening data collection, search and rescue efforts, and migrant protection mechanisms",PRO
+2025-02-10T00:00:00+00:00,SOM,null,"Immediate humanitarian assistance and long-term resilience interventions, including borehole drilling, livestock support, and sustainable water management",FSC
+2025-02-10T00:00:00+00:00,SDN,12400000,Protection (overall),PRO
+2025-02-06T00:00:00+00:00,LBN,890830,"Protection, Food Security, Shelter, Health, Water, Sanitation and Hygiene, Nutrition, Education, Mine Action, Housing, Land and Property, Camp Coordination And Camp Management, Agriculture, Multi-Purpose Cash, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",PRO
+2025-01-30T00:00:00+00:00,ISR,0,"Humanitarian aid, including food, water, shelter, and medical care",HEA
+2025-02-07T00:00:00+00:00,HTI,1200000,"Protection from sexual violence and armed groups, education, healthcare, and humanitarian assistance",PRO
+2025-02-07T00:00:00+00:00,COD,500000,"Humanitarian aid, protection of civilians, investigation of human rights violations",PRO
+2025-02-06T00:00:00+00:00,SYR,1500000,protection and reintegration assistance,PRO
+2025-02-06T00:00:00+00:00,SDN,0,"Humanitarian aid, medical supplies, food assistance, and safe access to civilians",HEA
+2025-02-05T00:00:00+00:00,COD,480000,lifesaving aid operations and unhindered humanitarian access,HEA
+2025-02-05T00:00:00+00:00,TUR,538000,"Education, Shelter, Health, Nutrition, Water, Sanitation and Hygiene, Child Protection, Gender-Based Violence, Food Security",EDU
+2025-02-04T00:00:00+00:00,HTI,5737,Protection (overall),PRO
+2025-02-04T00:00:00+00:00,SDN,12300000,"Protection, Food Security, Health, Shelter, Nutrition, Education, Mine Action, Housing, Land and Property, Camp Coordination And Camp Management, Agriculture, Multi-Purpose Cash, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",PRO
+2025-02-04T00:00:00+00:00,CMR,366000,Immunization and malaria control,HEA
+2025-02-04T00:00:00+00:00,COD,0,"Humanitarian aid, medical supplies, evacuation of the seriously injured",HEA
+2025-02-03T00:00:00+00:00,TZA,0,"strengthening local response capacity, providing trainings and essential protective and medical equipment to frontline healthcare staff",HEA
+2025-02-03T00:00:00+00:00,SYR,0,landmine clearance and education to prevent accidents,PRO-CPN
+2025-02-03T00:00:00+00:00,SDN,24600000,Food and aid deliveries,MS
+2025-02-01T00:00:00+00:00,COD,700,"Healthcare facilities and workers are under assault, and medical supplies and resources are urgently needed.",HEA
+2025-01-31T00:00:00+00:00,SSD,24418,strengthen and properly fund the fragile health care system,HEA
+2025-01-31T00:00:00+00:00,COD,0,Protection of civilians from conflict-related violence and human rights abuses,PRO
+2025-01-31T00:00:00+00:00,DRC,0,"Health infrastructure, basic services like water, sanitation, and hygiene, and safe access to deliver life-saving interventions",HEA
+2025-01-31T00:00:00+00:00,COL,46000,"EDU, PRO-CPN, PRO-HLP, PRO-GBV, HEA, MPC, SHL, NUT",EDU
+2025-01-31T00:00:00+00:00,MMR,20000000,"Humanitarian assistance, protection from violence and persecution",PRO
+2025-01-30T00:00:00+00:00,COD,1000,"Medical supplies, equipment, and staff to treat wounded civilians, as well as basic services such as electricity and drinking water.",HEA
+2025-01-29T00:00:00+00:00,MMY,15000000,Food Security,FSC
+2025-01-29T00:00:00+00:00,COD,400000,"Protection issues, including attacks on civilians, sexual violence, and human rights violations, have reached epidemic levels.",PRO
+2025-01-29T00:00:00+00:00,TCD,723951,Protection and education assistance,PRO-CPN
+2025-01-27T00:00:00+00:00,SDN,0,"Protection of critical civilian infrastructure, including power plants, water stations, and dams, to ensure access to clean water and electricity for millions of Sudanese.",PRO
+2025-01-27T00:00:00+00:00,COD,3000000,"Protection of children from violence and exploitation, provision of food, water, shelter, and healthcare",PRO-CPN
+2025-01-27T00:00:00+00:00,SYR,13000000,"Comprehensive approach to support returnees, including jobs, healthcare, education, and essential services",PRO
+2025-01-24T00:00:00+00:00,COD,400000,Protection (overall),PRO
+2025-01-24T00:00:00+00:00,NGA,3600000,life-saving assistance,PRO
+2025-01-24T00:00:00+00:00,AFG,242000000,EDU,EDU
+2025-01-23T00:00:00+00:00,ISR,2000000,"Humanitarian aid, psychosocial support, rebuilding of educational infrastructure",HEA
+2025-01-23T00:00:00+00:00,SDN,0,Food assistance to stop the spread of hunger,FSC
+2025-01-23T00:00:00+00:00,JOR,10000,shelter and basic necessities,SHL
+2025-01-23T00:00:00+00:00,UKR,4000000,Education and protection of children from the effects of war,EDU
+2025-01-22T00:00:00+00:00,SYR,0,"Healthcare system is showing signs of fatigue, dysfunctionality of public health facilities, depletion of medical stocks and consumables, limited access to primary healthcare services, shortage of essential medications, lack of basic supplies, inadequate staffing, overcrowding, lack of sufficient shelter, inadequate sanitation, limited access to food and healthcare.",HEA
+2025-01-22T00:00:00+00:00,LBN,1650000,Food Security,FSC
+2025-01-22T00:00:00+00:00,COL,9100000,"humanitarian assistance, protection, food security, health, water and sanitation",PRO
+2025-01-22T00:00:00+00:00,SOM,4600000,lifesaving humanitarian and protection assistance,PRO
+2025-01-21T00:00:00+00:00,COD,3000000,Protection (overall),PRO
+2025-01-21T00:00:00+00:00,MLI,4700000,"Protection, education, food security, health, nutrition, shelter and basic household items, water, sanitation and hygiene",PRO
+2025-01-20T00:00:00+00:00,TZA,0,HEA,HEA
+2025-01-19T00:00:00+00:00,EGY,1000000,Food Security,FSC
+2025-01-17T00:00:00+00:00,SDN,0,"Children are exposed to harrowing levels of violence and exploitation, including recruitment into armed groups, sexual violence, and lack of access to essential needs such as food, clean water, shelter, healthcare, and education.",PRO-CPN
+2025-01-17T00:00:00+00:00,UKR,12700000,"Comprehensive, needs-driven multisectoral assistance to newly displaced people, returnees and people living in front-line communities and parts of the country affected by ongoing hostilities.",MS
+2025-01-17T00:00:00+00:00,SDN,120000,"Health care, emergency aid, rehabilitation services, infrastructure repairs, and humanitarian assistance",HEA
+2025-01-17T00:00:00+00:00,COD,237000,"protection from violence, shelter, food, clean water, medical care",PRO
+2025-01-17T00:00:00+00:00,VUT,80000,EDU,EDU
+2025-01-15T00:00:00+00:00,COD,290000,"Access to food and basic necessities, menstrual hygiene products for women, blankets, and kitchen items.",HEA
+2025-01-16T00:00:00+00:00,UKR,8200000,Humanitarian and refugee response plans,PRO
+2025-01-15T00:00:00+00:00,YEM,19500000,Protection (overall),PRO
+2025-01-15T00:00:00+00:00,NGA,40,Protection (overall),PRO
+2025-01-15T00:00:00+00:00,ISR,1818000,"humanitarian aid, shelter, food, medical supplies",HEA
+2025-01-15T00:00:00+00:00,UKR,12700000,"Health system recovery, including restoring essential services, rehabilitation, primary health care, public health surveillance, and mental health support",HEA
+2025-01-14T00:00:00+00:00,HTI,1041000,Protection (overall),PRO
+2025-01-14T00:00:00+00:00,ISR,0,"rehabilitation support, prosthetics, and medical treatment for children with war-related injuries",HEA
+2025-01-13T00:00:00+00:00,X,473000000,"Protection of children in conflict zones, addressing child-rights violations, and ensuring access to essential services such as education, health care, and social protection.",PRO
+2025-01-13T00:00:00+00:00,MDG,5216,"Infrastructure repair, shelter, education support, and health services",PRO
+2025-01-13T00:00:00+00:00,COD,100000,Protection (overall),PRO
+2025-01-12T00:00:00+00:00,PSE,5000,Education and Child Protection,PRO-CPN
+2025-01-13T00:00:00+00:00,SDN,8,"Health services, strengthening health system, essential medicines, health worker training, maternal and child health services, nutrition services, disease surveillance, emergency operations centre equipment, rapid response team training",HEA
+2025-01-10T00:00:00+00:00,BHR,60000,Evacuations and infrastructure support,PRO
+2025-01-11T00:00:00+00:00,MDG,22500,Humanitarian aid and rescue operations,PRO
+2025-01-10T00:00:00+00:00,MMR,0,Protection (overall),PRO
+2025-01-10T00:00:00+00:00,SDN,0,"Medical care, particularly in emergency situations, and protection of medical staff and patients from violence.",HEA
+2025-01-09T00:00:00+00:00,USA,0,Disaster relief and recovery,HEA
+2025-01-09T00:00:00+00:00,UKR,0,Protection (overall),PRO
+2025-01-09T00:00:00+00:00,ECU,80000,"protection from violence, food, education, and opportunities to rebuild their lives",PRO
+2025-01-09T00:00:00+00:00,SYR,1110000,"protection, food security, shelter, water, sanitation, hygiene, health services, early recovery support",PRO
+2025-01-08T00:00:00+00:00,PSE,0,Fuel for hospitals to maintain electricity for medical care,HEA
+2025-01-08T00:00:00+00:00,ISR,0,"protection of civilians, humanitarian aid, and access to basic necessities such as food, water, sanitation, and healthcare",PRO
+2025-01-08T00:00:00+00:00,MMR,460,"Saving lives, providing protection, meeting humanitarian needs",PRO
+2025-01-07T00:00:00+00:00,HTI,5601,"Restoring the rule of law, addressing impunity for human rights violations and abuses, and strengthening the oversight mechanism of the National Haitian Police.",PRO
+2025-01-07T00:00:00+00:00,BLZ,400,"Agriculture support, food, hygiene, and cleaning kits",AGR
+2025-01-07T00:00:00+00:00,COD,102000,"Medical assistance, shelter, and protection",HEA
+2025-01-07T00:00:00+00:00,SYR,0,WSH,WSH
+2025-01-06T00:00:00+00:00,LBN,0,"Humanitarian assistance and protection to one million Lebanese, Syrians, Palestine refugees in Lebanon, Palestinian refugees from Syria, and migrants directly impacted by the recent escalation of hostilities and displacement.",PRO
+2025-01-06T00:00:00+00:00,SSD,792,Protection (overall),PRO
+2025-01-05T00:00:00+00:00,SDN,11532822,Protection (overall),PRO
+2024-12-31T00:00:00+00:00,HTI,21400,"Food assistance, shelter, and protection from violence",FSC
+2025-01-01T00:00:00+00:00,ITA,20,"Search and rescue operations, safe disembarkation, community-based reception, and access to asylum services",PRO
+2025-01-02T00:00:00+00:00,SDN,47365,WSH,WSH
+2024-12-31T00:00:00+00:00,UKR,0,"Human rights violations, civilian casualties, executions, torture, and restrictions on fundamental rights",PRO
+2024-12-31T00:00:00+00:00,MWI,2000,"Humanitarian assistance, including food, clean water, sanitation facilities, and shelter",MS
+2024-12-31T00:00:00+00:00,YEM,18,"Humanitarian aid, food imports, emergency aid to combat crisis levels of food insecurity",FSC
+2024-12-30T00:00:00+00:00,ETH,77000,"Food, water, sanitation, nutrition, healthcare, education",CSS
+2024-12-30T00:00:00+00:00,SDN,0,"Food Security, Nutrition, Healthcare, Safe Water, Sanitation and Hygiene, Social Protection and Livelihoods Support",HEA
+2024-12-20T00:00:00+00:00,USA,25,"Emergency Shelter, Food Security, Health","SHL,FSC,HEA"
+2024-12-28T00:00:00+00:00,PSE,75000,"Healthcare facilities and personnel are under attack, and the healthcare system is collapsing. Urgent support is needed to restore functionality to hospitals in North Gaza.",HEA
+2024-12-28T00:00:00+00:00,N/A,473000000,"Protection, Food Security, Education, Health, Shelter, Nutrition, Gender-Based Violence, Water, Sanitation and Hygiene",PRO
+2024-12-26T00:00:00+00:00,UKR,500000,"Restoration of heating and power services, particularly in Kharkiv",HEA
+2024-12-27T00:00:00+00:00,SDN,103000000,Education,EDU
+2024-12-26T00:00:00+00:00,Mozambique,622000,"Shelter, food, potable water, and health services",PRO
+2024-12-24T00:00:00+00:00,UKR,0,Child Protection,PRO-CPN
+2024-12-26T00:00:00+00:00,AFG,758000,"Multi-Purpose Cash, Health, Water, Sanitation and Hygiene, Nutrition, Child Protection",MS
+2024-12-24T00:00:00+00:00,SDN,1000,"Health complications, measles outbreak, malnutrition, lack of access to basic needs",HEA
+2024-12-24T00:00:00+00:00,SDN,449000,"Urgent assistance, including blankets, warm clothing and reinforced shelter materials to help refugees endure the winter period.",HEA
+2024-12-24T00:00:00+00:00,VUT,2806,"Mental health assistance, urgent humanitarian priorities, safe housing, schools rebuilt",HEA
+2024-12-23T00:00:00+00:00,HTI,207,Protection (overall),PRO
+2024-12-23T00:00:00+00:00,YEM,249900,"comprehensive interventions, including coordination, surveillance, laboratory capacity, case management, community engagement initiatives, water, sanitation and hygiene (WASH) and oral cholera vaccinations",WSH
+2024-12-23T00:00:00+00:00,ZMB,0,Health,HEA
+2024-12-19T00:00:00+00:00,UKR,0,Localization of humanitarian funding to support local and national non-governmental organizations (L/NNGOs) in Ukraine.,PRO
+2024-12-19T00:00:00+00:00,LBN,1400000,"Protection, Food Security, Shelter, Health, Education, Water, Sanitation and Hygiene, Gender-Based Violence, Nutrition",PRO
+2024-12-20T00:00:00+00:00,MOZ,329510,"Shelter/NFIs, Food, WASH, Health and Protection services",SHL
+2024-12-20T00:00:00+00:00,NGA,null,Food assistance and long-term solutions to tackle the food crisis,FSC
+2024-12-20T00:00:00+00:00,SSD,900000,"Emergency assistance, longer-term solutions, and support for host communities",MS
+2024-12-19T00:00:00+00:00,SDN,1000,HEA,HEA
+2024-12-18T00:00:00+00:00,LBN,0,"Clearing unexploded ordnance and cluster munitions, providing risk education to communities",PRO-CPN
+2024-12-18T00:00:00+00:00,ARE,66100000,Food security and nutrition,FSC
+2024-12-18T00:00:00+00:00,SSD,1140,arbitrary arrests and detentions,PRO-GBV
+2024-12-18T00:00:00+00:00,VUT,80000,"shelter, food, healthcare, access to education",PRO
+2024-12-16T00:00:00+00:00,X,58500000,sustainable solutions,PRO
+2024-12-17T00:00:00+00:00,MOZ,90000,"Emergency Shelter, Water, Sanitation and Hygiene, Health, Nutrition, Education, Child Protection","WSH,HEA,NUT,EDU,PRO-CPN"
+2024-12-16T00:00:00+00:00,Mozambique,24102,Emergency Relief,PRO
+2024-12-16T00:00:00+00:00,SYR,17000000,"Humanitarian aid, including food, shelter, and medical care",HEA
+2024-12-16T00:00:00+00:00,PSE,945000,Emergency Shelter,SHL
+2024-12-16T00:00:00+00:00,SSD,null,lifesaving assistance,PRO
+2024-12-15T00:00:00+00:00,Mozambique,1700000,protection from strong winds and heavy rain,PRO
+2024-12-13T00:00:00+00:00,ISR,0,"Protection of children from violence and provision of essential services such as food, water, medical supplies, and warm clothes.",PRO-CPN
+2024-12-13T00:00:00+00:00,SDN,64,Protection (overall) and Food Security,PRO
+2024-12-11T00:00:00+00:00,ISR,180000,"Mental health and psychosocial support, critical supplies, including medical provisions and nutritional supplements",PRO-CPN
+2024-12-13T00:00:00+00:00,SYR,35000,"Locate missing persons, preserve records, safeguard gravesites, protect personal data, and ensure professional forensic practice",PRO-CPN
+2024-12-11T00:00:00+00:00,SYR,13000000,"Humanitarian aid, shelter, food, and water",MS
+2024-12-12T00:00:00+00:00,X,122600000,Sustainable forest management to enhance self-reliance and promote climate resilience in displacement settings,FSC
+2024-12-12T00:00:00+00:00,SDN,11000000,"livelihoods, healthcare, food and water, security and shelter",PRO
+2024-12-11T00:00:00+00:00,SDN,305000000,"Humanitarian aid reform, relief of debt burdens, expansion of financing, promotion of economic stability, protection of civilians, ease of civilian suffering, investment in climate adaptation and resilience, expansion of safe pathways and assistance for refugees",PRO
+2024-12-11T00:00:00+00:00,ISR,3300000,"Humanitarian aid, including safe access, goods, funding, and visas",PRO
+2024-12-11T00:00:00+00:00,AFG,0,PRO-CPN,PRO-CPN
+2024-12-10T00:00:00+00:00,SDN,0,Humanitarian assistance for conflict-affected people,HEA
+2024-12-10T00:00:00+00:00,SDN,900000,"life-saving humanitarian support, water, health care",HEA
+2024-12-10T00:00:00+00:00,SDN,1700000,Food Security,FSC
+2024-12-10T00:00:00+00:00,SYR,700000,"Essential winter relief supplies, emergency water, sanitation and health services, camp management and camp coordination, emergency shelter and transitional housing solutions, and protection services.",PRO
+2024-12-09T00:00:00+00:00,MMY,1100000,"provision of food and basic needs, including cash assistance, shelter and household recovery, livelihood restoration and mental health and psychosocial support",PRO
+2024-12-09T00:00:00+00:00,UKR,10000000,Mental health and psychosocial support,HEA
+2024-12-04T00:00:00+00:00,PSE,0,"Effective site management to address displacement, shelter, food insecurity, and protection risks in Gaza",SHL
+2024-12-08T00:00:00+00:00,SYR,0,Accountability and protection from human rights abuses and war crimes,PRO
+2024-12-06T00:00:00+00:00,SDN,1526,Health,HEA
+2024-12-06T00:00:00+00:00,AFG,0,HEA,HEA
+2024-12-05T00:00:00+00:00,AFG,109000000,"Humanitarian assistance in response to multiple conflicts, climate shocks, displacement, and health crises",PRO
+2024-12-05T00:00:00+00:00,NGA,294000,Immediate additional support is needed to avoid an even deadlier catastrophe in 2025.,HEA
+2024-12-05T00:00:00+00:00,ZWE,51,Integrated life-saving assistance to address acute needs of children,PRO
+2024-12-04T00:00:00+00:00,SLE,20000,Preventive Ebola vaccination for frontline workers,HEA
+2024-12-04T00:00:00+00:00,X,305000000,life-saving aid,PRO
+2024-12-03T00:00:00+00:00,X,0,"Prevention, detection and management of child wasting in humanitarian contexts",NUT
+2024-12-03T00:00:00+00:00,SYR,0,Protection (overall),PRO
+2024-12-03T00:00:00+00:00,SUD,9140000,Emergency shelter solutions,SHL
+2024-12-02T00:00:00+00:00,SDN,0,Protection (overall),PRO
+2024-12-02T00:00:00+00:00,MMR,6000,"Humanitarian aid, protection of civilian populations, and documentation of human rights abuses",PRO
+2024-12-02T00:00:00+00:00,HTI,5400000,Food assistance to meet escalating food needs,FSC
+2024-12-01T00:00:00+00:00,SYR,0,"Protection of civilians, access to assistance and essential services, including healthcare, water, sanitation and hygiene, protection, and food",PRO
+2024-11-29T00:00:00+00:00,PSE,0,HEA,HEA
+2024-11-29T00:00:00+00:00,DRC,0,Gender-Based Violence prevention and response services,PRO-GBV
+2024-11-29T00:00:00+00:00,BDI,484000,NUT,NUT
+2024-11-28T00:00:00+00:00,SYR,14000,"Protection and humanitarian aid, including winterization items, food, WASH, health support, and shelter",PRO
+2024-11-27T00:00:00+00:00,SDN,0,HEA,HEA
+2024-11-24T00:00:00+00:00,HTI,365000,Protection of children from armed groups and sexual violence,PRO-CPN
+2024-11-26T00:00:00+00:00,LBN,896000,"WSH, HEA, NUT, SHL, MPC, MS",MS
+2024-11-26T00:00:00+00:00,COD,25600000,Emergency agricultural aid and scaled up humanitarian aid efforts to reverse the alarming trend of high acute food insecurity,FSC
+2024-11-25T00:00:00+00:00,CUB,930000,Support with urgent needs and recovery activities,PRO
+2024-11-25T00:00:00+00:00,KEN,0,HEA,HEA
+2024-11-25T00:00:00+00:00,X,85000,Prevention of gender-based violence,PRO-GBV
+2024-11-25T00:00:00+00:00,PSE,130000,"Food, water, medical supplies, and safe humanitarian access",HEA
+2024-11-22T00:00:00+00:00,SDN,0,"Famine in Sudan, Gaza, and parts of South Sudan, Haiti, and Mali",HEA
+2024-11-22T00:00:00+00:00,SDN,15000000,Food assistance to prevent famine and address acute malnutrition,FSC
+2024-11-22T00:00:00+00:00,LBN,1300000,adequate shelter and winter assistance,SHL
+2024-11-22T00:00:00+00:00,ISR,0,Protection (overall),PRO
+2024-11-21T00:00:00+00:00,COL,5100000,Early recovery and rebuilding of lives of displaced Colombians,ERY
+2024-11-21T00:00:00+00:00,UKR,0,"Economic integration and livelihood support for internally displaced persons, women, and vulnerable populations",HEA
+2024-11-21T00:00:00+00:00,COD,25600000,Food Security,FSC
+2024-11-21T00:00:00+00:00,MMR,3400000,"Protection of children and families from conflict and climate shocks, including access to healthcare, education, and safe shelter.",PRO-CPN
+2024-11-20T00:00:00+00:00,FJI,0,"Investing in education, services, and sustainable and resilient cities for children, Expanding climate resilience in infrastructure, technology, essential services and social support systems, Delivering connectivity and safe technology design for all children",PRO
+2024-11-20T00:00:00+00:00,UKR,516089,"Healthcare, clean water, nutrition support, and protection from physical danger and emotional distress",HEA
+2024-11-19T00:00:00+00:00,HTI,0,Food Security,FSC
+2024-11-19T00:00:00+00:00,SDN,0,Protection,PRO
+2024-11-19T00:00:00+00:00,SDN,100000,"Food and water shortages, medical supplies, humanitarian aid and services",FSC
+2024-11-19T00:00:00+00:00,SDN,0,HEA,HEA
+2024-11-18T00:00:00+00:00,SSD,7700000,FSC: Food Security,FSC
+2024-11-18T00:00:00+00:00,UKR,170000,"safe water, warmth, healthcare",WSH
+2024-11-18T00:00:00+00:00,UKR,14600000,Protection (overall) and Gender-Based Violence,PRO-GBV
+2024-11-13T00:00:00+00:00,SDN,61000,Preventable disease and starvation,HEA
+2024-09-20T00:00:00+00:00,ISR,0,"Human rights concerns, including starvation as a weapon of war, genocide, and apartheid system",HEA
+2024-11-15T00:00:00+00:00,HTI,3558,"food assistance, hygiene kits, school kits and WASH kits",FSC
+2024-11-15T00:00:00+00:00,HND,20500,"Shelter, rescue operations, infrastructure, transportation, and energy",SHL
+2024-11-15T00:00:00+00:00,PHL,9240000,"Multiple, including shelter, food, and water",CCM
+2024-11-14T00:00:00+00:00,MRT,260000,"Food Security, Health, Shelter, Water, Sanitation and Hygiene, Protection",HEA
+2024-11-14T00:00:00+00:00,N/A,10300000,"Immunization for every person, no matter where they live",HEA
+2024-11-13T00:00:00+00:00,SDN,648300,Polio vaccination,HEA
+2024-11-12T00:00:00+00:00,ISR,75000,"Humanitarian aid, food, water, and medical supplies",HEA
+2024-11-13T00:00:00+00:00,UKR,774000,"protection from sub-zero temperatures, health complications, and lack of access to essential services",PRO
+2024-11-13T00:00:00+00:00,COD,0,Health,HEA
+2024-11-12T00:00:00+00:00,PHL,7000000,"Clean drinking water, basic medications, and psychosocial support",WSH
+2024-11-05T00:00:00+00:00,CAR,507000,"Voluntary repatriation, cash assistance, social cohesion, livelihood support, civil documentation, peacebuilding activities",MS
+2024-11-11T00:00:00+00:00,SDN,0,Climate-related displacement and adaptation support,HEA
+2024-11-11T00:00:00+00:00,HTI,2700000,PRO-CPN,PRO-CPN
+2024-11-11T00:00:00+00:00,UKR,0,Mine Action,PRO-MIN
+2024-11-08T00:00:00+00:00,ISR,658000,"protection of schools and civilians, provision of shelter, malnutrition treatment, education, and mental health support",PRO
+2024-11-08T00:00:00+00:00,NGA,33000000,Food insecurity and malnutrition,FSC
+2024-11-08T00:00:00+00:00,SDN,262,Protection of civilians and humanitarian access,PRO
+2024-11-07T00:00:00+00:00,X,0,"Climate adaptation efforts, including finance commitment, capacity-building, and technology transfer",PRO
+2024-11-07T00:00:00+00:00,COL,1000000000,"Prevention of childhood violence, including corporal punishment, bullying, physical or emotional abuse, and sexual violence",HEA
+2024-11-07T00:00:00+00:00,MMR,2000000,"Food, aid, and financial resources to support agriculture sector recovery",FSC
+2024-11-06T00:00:00+00:00,BRA,420000,"Essential services, including health, education, and child protection, as well as agriculture and fishing livelihoods, are severely disrupted in the region, putting lives at risk.",HEA
+2024-11-07T00:00:00+00:00,PHL,300000000,"Schools, aid, and support for children affected by extreme weather events",HEA
+2024-11-06T00:00:00+00:00,COD,38000,Vaccination and targeted vaccination to reduce transmission and help contain outbreaks,HEA
+2024-11-06T00:00:00+00:00,SSD,0,Prevention of statelessness and protection of rights of stateless persons,PRO-CPN
+2024-11-06T00:00:00+00:00,CMR,455000,"Emergency Shelter, Food, Clothing, Temporary Shelter, Health and Sanitation",SHL
+2024-11-05T00:00:00+00:00,NGA,0,NUT,NUT
+2024-11-05T00:00:00+00:00,SSD,59,Health,HEA
+2024-11-05T00:00:00+00:00,PHL,8800000,"WASH, NFIs, protection services, food security, emergency livelihoods",WSH
+2024-11-04T00:00:00+00:00,SDN,148000,Health,HEA
+2024-11-04T00:00:00+00:00,PSE,30000,"Healthcare services, particularly in rural areas and for vulnerable populations",HEA
+2024-11-02T00:00:00+00:00,PSE,0,Protection (overall),PRO
+2024-11-01T00:00:00+00:00,PSE,0,Polio vaccination campaign in northern Gaza,HEA
+2024-11-01T00:00:00+00:00,SSD,null,Preposition food to prevent spiralling operational costs and hunger,FSC
+2024-10-30T00:00:00+00:00,UKR,1800000,Assistance to get through a cold and harsh winter,PRO
+2024-10-31T00:00:00+00:00,SDN,0,"Conflict resolution, economic support, and climate adaptation measures to protect the most vulnerable populations from the brink of famine.",PRO
+2024-10-31T00:00:00+00:00,TCD,2000000,"Food, shelter, healthcare, NFIs, and WASH services",FSC
+2024-10-30T00:00:00+00:00,LBN,11000,"Health services, maternal care, emergency obstetric care, reproductive health medicines, supplies, and psychosocial support",HEA
+2024-10-30T00:00:00+00:00,SDN,11800000,"Children are displaced and in desperate conditions, missing out on early childhood essentials, including vaccinations, clean water, healthcare, nutritious food, and shelter from extreme heat and cold.",PRO-CPN
+2024-10-30T00:00:00+00:00,SSD,50,"Cholera outbreak response, including disease surveillance, response coordination, and medical supplies",HEA
+2024-10-29T00:00:00+00:00,SDN,25000000,"Humanitarian assistance, including shelter, food, water, sanitation, and health care",HEA
+2024-10-29T00:00:00+00:00,ISR,0,Protection of UNRWA operations and Palestine refugees in the Occupied Palestinian Territory,PRO
+2024-10-28T00:00:00+00:00,SDN,45000,Protection (overall),PRO
+2024-10-28T00:00:00+00:00,COD,25600000,Food Security,FSC
+2024-10-28T00:00:00+00:00,PHL,805000,"disrupted learning, access to clean water, food insecurity, protection risks for children, health issues",EDU
+2024-10-27T00:00:00+00:00,UKR,0,"Medical and psychological support, hospital support, ambulance services",HEA
+2024-10-25T00:00:00+00:00,Moz,1000000,Protection (overall),PRO
+2024-10-25T00:00:00+00:00,ISR,0,Protection of persons with disabilities from indiscriminate attacks and lack of access to humanitarian assistance,PRO
+2024-10-24T00:00:00+00:00,AFG,0,Polio vaccination and strengthening of immunization systems,HEA
+2024-10-24T00:00:00+00:00,BGD,0,"Urgent access to food, shelter, medical attention, aid, shelter, money, security, food and healthcare",PRO
+2024-10-23T00:00:00+00:00,SOM,30000,"Food, shelter, water, sanitation, basic health services",FSC
+2024-10-23T00:00:00+00:00,SYR,0,Healthcare infrastructure and medical supplies to prevent maternal and fetal deaths due to placental abruption and other critical conditions.,HEA
+2024-10-23T00:00:00+00:00,MWI,1700000,"Health Early Warning and Response System, strengthening health centres, hospitals and water, sanitation and hygiene infrastructure, supporting and training healthcare staff, and supporting communities to manage climate change impacts on health",HEA
+2024-10-23T00:00:00+00:00,PSE,119279,Vaccination campaign to protect children from polio,HEA
+2024-10-22T00:00:00+00:00,YEM,0,PRO-GBV,PRO-GBV
+2024-10-22T00:00:00+00:00,LBN,1200000,WSH,WSH
+2024-10-22T00:00:00+00:00,SDN,2500000,Food and nutrition support,FSC
+2024-10-22T00:00:00+00:00,PSE,4100000,"Comprehensive recovery and reconstruction plan, combining humanitarian aid with strategic investments in recovery and reconstruction along with lifting economic restrictions and promoting recovery-enabling conditions",PRO
+2024-10-21T00:00:00+00:00,SSD,890000,"Health services, emergency health kits, cholera investigation and treatment kits, antimalarial drugs, snakebite antivenoms",HEA
+2024-10-20T00:00:00+00:00,AFG,3220000,Nutrition,NUT
+2024-10-19T00:00:00+00:00,PSE,0,PRO-HEA,HEA
+2024-10-17T00:00:00+00:00,PSE,0,"Economic recovery, infrastructure development, creating decent jobs, skills development and inclusive economic support",AGR
+2024-10-17T00:00:00+00:00,LBN,0,"Food and hygiene essentials, emergency shelter, and baby care items",FSC
+2024-10-17T00:00:00+00:00,ISR,1840000,agricultural aid and commercial food production inputs,AGR
+2024-10-17T00:00:00+00:00,X,455000000,"Poverty reduction, specialized development and early recovery interventions",PRO
+2024-10-16T00:00:00+00:00,null,null,null,null
+2024-10-15T00:00:00+00:00,SDN,278000000,Food Security,FSC
+2024-10-15T00:00:00+00:00,SDN,0,"Poverty reduction, economic growth, and climate resilience",PRO
+2024-10-15T00:00:00+00:00,NIG,10000000,Education,EDU
+2024-10-15T00:00:00+00:00,MGL,2000000,Therapeutic food for treatment of severe acute malnutrition,NUT
+2024-10-14T00:00:00+00:00,SDN,11400000,Urgent action and resources are required to prevent further deterioration and escalation of needs.,FSC
+2024-10-14T00:00:00+00:00,SYR,250000,"Health and protection services, including mobile health units, psychological first aid, and counseling for women and children",HEA
+2024-10-14T00:00:00+00:00,PSE,400000,Protection (overall),PRO
+2024-10-14T00:00:00+00:00,SDN,2000000,"Healthcare, food, and nutrition support for pregnant women and newborns",HEA
+2024-10-13T00:00:00+00:00,PSE,400000,"Essential supplies, safe humanitarian response, protection, shelter, food, medicine, water",PRO
+2024-10-12T00:00:00+00:00,LBN,689715,Protection (overall) and Food Security and Shelter and Health and Education,PRO
+2024-10-11T00:00:00+00:00,SSD,810000,"protection, food security, shelter, medical care, access to identity documentation, livelihood opportunities, inclusion into national systems",PRO
+2024-10-10T00:00:00+00:00,SOM,0,"Widespread human misery, undernourishment and malnutrition",HEA
+2024-10-11T00:00:00+00:00,VNM,0,Restoring learning in school settings as fast as possible is vital for reestablishing stability and ensuring children can thrive.,EDU
+2024-10-10T00:00:00+00:00,MOZ,580000,"Limited access to healthcare, livelihoods, and education",HEA
+2024-10-10T00:00:00+00:00,X,0,Child protection,PRO-CPN
+2024-10-10T00:00:00+00:00,LBN,1000000,"Healthcare facilities, medical personnel, and civilians are being targeted, leading to a severe disruption in access to medical care. The healthcare system is overwhelmed, and there is a need for emergency medical services, including psychological first aid, general medical consultations, and mental health support.",HEA
+2024-10-09T00:00:00+00:00,N/A,370000000,Comprehensive prevention and support strategies to address all forms of violence and abuse,PRO-GBV
+2024-10-09T00:00:00+00:00,LBN,1200000,EDU,EDU
+2024-10-09T00:00:00+00:00,SDN,2800000,Protection (overall),PRO
+2024-10-09T00:00:00+00:00,ISR,400000,"humanitarian aid, protection of civilians, and a permanent ceasefire",HEA
+2024-10-08T00:00:00+00:00,BRA,11700000,HEA,HEA
+2024-10-08T00:00:00+00:00,BGD,6000000,"Food assistance, cash transfers, cash-for-work, income-generating activities, emergency school feeding",FSC
+2024-10-08T00:00:00+00:00,ETH,390,PRO-CPN,PRO-CPN
+2024-10-08T00:00:00+00:00,SYR,250000,"Urgent relief, including water, food, blankets, legal assistance, and documentation",PRO
+2024-10-07T00:00:00+00:00,PSE,500000,Food Security,FSC
+2024-10-07T00:00:00+00:00,ISR,0,Protection (overall),PRO
+2024-10-05T00:00:00+00:00,COD,30000,Vaccination and outbreak control efforts,HEA
+2024-10-05T00:00:00+00:00,PER,880000,"WASH, Health and Nutrition",HEA
+2024-10-04T00:00:00+00:00,ISR,18,Investigation into the incident and holding perpetrators of violations to account,HEA
+2024-10-04T00:00:00+00:00,SDN,4470,"Cholera treatment, safe drinking water, and medical supplies",HEA
+2024-10-04T00:00:00+00:00,PSE,0,Health,HEA
+2024-10-03T00:00:00+00:00,HTI,760000,FSC: Food Security,FSC
+2024-10-03T00:00:00+00:00,COL,0,PRO-CPN,PRO-CPN
+2024-10-02T00:00:00+00:00,SDN,0,Protection (overall),PRO
+2024-09-26T00:00:00+00:00,MLI,73778,"GBV and SRH services, basic hygiene and menstrual health supplies",PRO-GBV
+2024-10-02T00:00:00+00:00,HTI,700000,"protection, food security, shelter, healthcare, education",PRO
+2024-10-02T00:00:00+00:00,LBN,1000000,"Shelter, food, water, sanitation, hygiene, and medical care",PRO
+2024-10-01T00:00:00+00:00,NPL,217,"protection, shelter, food, water, health, education, and child protection",PRO
+2024-10-01T00:00:00+00:00,LBN,1000000,"Food, basic assistance, shelter, healthcare, water, and municipal services",PRO
+2024-09-30T00:00:00+00:00,HTI,5400000,"Increase funding, ensure safe and unfettered humanitarian access, and find sustainable pathways to peace",FSC
+2024-09-30T00:00:00+00:00,HTI,5400000,Food Security,FSC
+2024-09-30T00:00:00+00:00,COD,6400000,Protection (overall),PRO
+2024-09-30T00:00:00+00:00,NPL,5400,"Emergency Shelter, Food Security, Health, Education, Child Protection",SHL
+2024-09-29T00:00:00+00:00,LBN,1000000,"Food assistance, cash support",FSC
+2024-09-27T00:00:00+00:00,MMY,1000000,"Emergency assistance, including food, drinking water, shelter, and WASH support",PRO
+2024-09-27T00:00:00+00:00,SOM,4360000,Food Security,FSC
+2024-09-27T00:00:00+00:00,HTI,3661,Protection (overall),PRO
+2024-09-27T00:00:00+00:00,SDN,0,PRO-GBV,PRO-GBV
+2024-09-26T00:00:00+00:00,LBN,0,"extensive damage to infrastructure, displacement, lack of access to clean drinking water, medical care, and humanitarian aid",HEA
+2024-09-26T00:00:00+00:00,DRC,0,"Vaccines and support for infection prevention and control, risk communication, and community engagement",HEA
+2024-09-26T00:00:00+00:00,SDN,0,Protection (overall),PRO
+2024-09-26T00:00:00+00:00,HTI,600000,Education and psychosocial support for displaced children,EDU
+2024-09-25T00:00:00+00:00,UKR,1400000,Winter response to keep critical services running for children,HEA
+2024-09-25T00:00:00+00:00,LBN,90350,Protection (overall),PRO
+2024-09-25T00:00:00+00:00,SYR,27000,"shelter, health care, psychosocial support",PRO
+2024-09-25T00:00:00+00:00,PSE,13000000,Emergency Shelter,SHL
+2024-09-24T00:00:00+00:00,BGD,120000,Food assistance and cash assistance,FSC
+2024-09-23T00:00:00+00:00,UKR,3274,Protection (overall),PRO
+2024-09-20T00:00:00+00:00,UGA,100000,"Health infrastructure, medical supplies, and medicine",HEA
+2024-09-20T00:00:00+00:00,HND,0,"Protection from violence, counseling and legal assistance, emergency education, livelihoods and shelter programmes",PRO
+2024-09-20T00:00:00+00:00,X,282000000,Food security,FSC
+2024-09-20T00:00:00+00:00,TCD,1500000,"protection, food, shelter, water, sanitation, health",PRO
+2024-09-20T00:00:00+00:00,MMR,630000,Food and cash assistance,FSC
+2024-09-19T00:00:00+00:00,NGA,640000,"Emergency Shelter, Food Security, Health, Nutrition, Water, Sanitation and Hygiene",FSC
+2024-09-16T00:00:00+00:00,DRC,0,"Address mpox crisis, provide prevention and response efforts, support healthcare, sanitation, and hygiene, address malnutrition and displacement",HEA
+2024-09-18T00:00:00+00:00,MMY,631000,emergency food assistance,FSC
+2024-09-18T00:00:00+00:00,VNM,6000000,"Access to clean water, education, healthcare, food, and shelter",HEA
+2024-09-17T00:00:00+00:00,NIG,4000000,Emergency food and nutrition assistance,FSC
+2024-09-17T00:00:00+00:00,NGA,1000000,"Emergency shelter, food, and protection from gender-based violence",PRO-GBV
+2024-09-16T00:00:00+00:00,ISR,2200000,"Humanitarian aid, including food, medicine, medical supplies, fuel, and tents",HEA
+2024-09-17T00:00:00+00:00,PSE,1558,Protection (overall),PRO
+2024-09-16T00:00:00+00:00,TCD,44500,Food and shelter,FSC
+2024-09-16T00:00:00+00:00,NGA,239000,"shelter, food, and hygiene supplies",PRO
+2024-09-14T00:00:00+00:00,VNM,183000,"Emergency Shelter, Food Security, Health, Water, Sanitation and Hygiene, Nutrition, Education, Child Protection, Housing, Land and Property, Camp Coordination And Camp Management, Agriculture, Multi-Purpose Cash, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",SHL
+2024-09-13T00:00:00+00:00,N/A,0,"Extreme weather, including intense heat, extreme precipitation and drought, accompanied by floods and wildfires",ERY
+2024-09-13T00:00:00+00:00,CMR,139000,Flood relief and support for vulnerable communities,FSC
+2024-09-12T00:00:00+00:00,PSE,1840000,Economic stabilization and humanitarian support,PRO
+2024-09-13T00:00:00+00:00,SDN,300000,Food and essential supplies,FSC
+2024-09-13T00:00:00+00:00,COD,0,HEA,HEA
+2024-09-12T00:00:00+00:00,MMY,600,Protection of children and civilians from airstrikes and attacks on schools,PRO
+2024-09-12T00:00:00+00:00,NIG,841000,"Emergency support including cash, shelter and improved sanitation and access to clean water",PRO
+2024-09-12T00:00:00+00:00,VNM,19000000,"Food Security, Shelter, Health, and Protection",FSC
+2024-09-12T00:00:00+00:00,X,0,"Access to child-critical services such as health care, basic WASH services, school, and social protection and child protection programmes",HEA
+2024-09-12T00:00:00+00:00,PSE,22500,rehabilitation services,HEA
+2024-09-11T00:00:00+00:00,HTI,5000000,emergency agriculture activities,FSC
+2024-09-11T00:00:00+00:00,COD,9900000,Health services and emergency response efforts,HEA
+2024-09-11T00:00:00+00:00,SSD,794000,"Food assistance, nutrition, and protection from malnutrition, disease, and protection risks",HEA
+2024-09-10T00:00:00+00:00,ETH,800000,WSH,WSH
+2024-09-10T00:00:00+00:00,NGA,97000,Health facilities and ready-to-use-therapeutic food,HEA
+2024-09-10T00:00:00+00:00,SYR,16000000,Protection of civilians and civilian infrastructure,PRO
+2024-09-09T00:00:00+00:00,PSE,0,EDU,EDU
+2024-09-09T00:00:00+00:00,PAN,4200000,"Food security, formal employment, documentation, healthcare, education services",FSC
+2024-09-09T00:00:00+00:00,DRC,500000,"Ensure the safety of students and teachers, and provide adequate funding for education programmes in conflict-affected regions.",HEA
+2024-09-06T00:00:00+00:00,COD,0,Mpox outbreak response,HEA
+2024-09-06T00:00:00+00:00,BGD,14600000,"protection, food security, shelter, water, sanitation, and hygiene, livelihoods, and health",WSH
+2024-09-06T00:00:00+00:00,NAM,1150000,Food Security,FSC
+2024-09-06T00:00:00+00:00,NGA,600000,"emergency shelter, food, water, medical care",PRO
+2024-09-06T00:00:00+00:00,UKR,0,"repair damaged buildings, ensure electricity and heating, and provide shelter",PRO
+2024-09-05T00:00:00+00:00,SSD,710000,"Medical care, protection services, shelter, and non-food items",HEA
+2024-09-05T00:00:00+00:00,YEM,562000,"Shelter, non-food items (NFI), cash-based interventions, health, camp coordination and camp management, and water, sanitation, and hygiene interventions",CCM
+2024-09-05T00:00:00+00:00,SDN,2900,"Water, Sanitation and Hygiene",WSH
+2024-09-04T00:00:00+00:00,null,null,Scientific investigations and studies to understand the origins of emerging and re-emerging pathogens,HEA
+2024-09-04T00:00:00+00:00,AFG,4000,"Preventable and easily treatable disease, safe drinking water, sanitation and hygiene",HEA
+2024-09-05T00:00:00+00:00,LSO,700000,Food Security,FSC
+2024-09-04T00:00:00+00:00,PAK,0,"Water, Sanitation and Hygiene, Health, Nutrition, Education, Food Security",WSH
+2024-09-03T00:00:00+00:00,PRK,920000,catch-up vaccination campaign,HEA
+2024-09-02T00:00:00+00:00,COD,0,"clean water, hygiene and sanitation facilities in schools and communities",WSH
+2024-09-02T00:00:00+00:00,UKR,7500000,"Mental health and psychosocial support for children, parents, and caregivers, as well as protection services and child-friendly spaces.",PRO
+2024-08-30T00:00:00+00:00,PAK,18600,"food, shelter, healthcare",FSC
+2024-08-30T00:00:00+00:00,YEM,18200000,"Humanitarian aid, including protection, shelter, non-food items, and camp coordination",PRO
+2024-08-30T00:00:00+00:00,SDN,50000,"Humanitarian assistance, including shelter, non-food items, hygiene kits, medical care and multipurpose cash assistance",PRO
+2024-08-30T00:00:00+00:00,YEM,0,"hunger, displacement, diseases and climate disasters",HEA
+2024-08-30T00:00:00+00:00,PAK,170000000,"Extreme heatwaves are leading to an increase in child hospitalisations, the prevalence of respiratory conditions like asthma, in addition to impacting children’s mental health and overall development.",HEA
+2024-08-29T00:00:00+00:00,SSD,472000,"life-saving assistance, emergency health kits, cholera kits, essential nutrition supplies",HEA
+2024-08-29T00:00:00+00:00,PSE,782000,EDU,EDU
+2024-08-28T00:00:00+00:00,NER,353000,"Food Security, Shelter, Water, Sanitation and Hygiene",FSC
+2024-08-28T00:00:00+00:00,PSE,650,HEA,HEA
+2024-08-28T00:00:00+00:00,NGA,0,mpox vaccine and support for outbreak response,HEA
+2024-08-27T00:00:00+00:00,BGD,5000000,"Urgent life-saving multi-sectoral interventions for children, pregnant and lactating women",HEA
+2024-08-27T00:00:00+00:00,LBY,97000,"protection, food, healthcare, clean water, temporary shelter",PRO
+2024-08-27T00:00:00+00:00,SUD,0,"Conflict, displacement, food and water insecurity, lack of safety and sanitation, increased exposure to disease and deteriorating mental health",PRO
+2024-08-27T00:00:00+00:00,COD,0,Health,HEA
+2024-08-27T00:00:00+00:00,UKR,1900000,Education,EDU
+2024-08-26T00:00:00+00:00,HTI,3600000,$674M needed to reach the needs of 3.6 million people,FSC
+2024-08-26T00:00:00+00:00,UKR,0,WSH,WSH
+2024-08-26T00:00:00+00:00,COD,0,"Comprehensive surveillance, prevention, readiness and response strategies; advancing research and equitable access to medical countermeasures like diagnostic tests and vaccines; minimizing animal-to-human transmission; and empowering communities to actively participate in outbreak prevention and control.",HEA
+2024-08-26T00:00:00+00:00,ISR,1100000,"Food assistance, road repairs, and security guarantees",FSC
+2024-08-26T00:00:00+00:00,YEM,4500000,Protection (overall),PRO
+2024-08-24T00:00:00+00:00,BGD,0,Protection (overall),PRO
+2024-08-25T00:00:00+00:00,YEM,27,Protection (overall),PRO
+2024-08-23T00:00:00+00:00,BGD,4900000,"humanitarian assistance, safe shelter, lifesaving assistance, clean drinking water, food, hygiene kits",PRO
+2024-08-20T00:00:00+00:00,HTI,5500000,"Protection, Food Security, Health, Shelter, Water, Sanitation and Hygiene, Nutrition, Education, Mine Action, Housing, Land and Property, Camp Coordination And Camp Management, Agriculture, Multi-Purpose Cash, Refugees and Migrant Multisector, Rapid Response Mechanism (RRM), Early Recovery and Livelihoods, Logistics, Emergency Telecommunications",PRO
+2024-08-23T00:00:00+00:00,SDN,119,"Cholera treatment, health care, and life-saving aid",HEA
+2024-08-22T00:00:00+00:00,PSE,900000,Protection (overall),PRO
+2024-08-22T00:00:00+00:00,BDI,170,"Health System Strengthening, continuity of essential services and targeted focus on programmes that support overall child wellbeing",HEA
+2024-08-22T00:00:00+00:00,SDN,0,"Humanitarian assistance, including medical supplies, food, and safe access to affected areas",HEA
+2024-08-22T00:00:00+00:00,SDN,null,Food Insecurity,FSC
+2024-08-22T00:00:00+00:00,BGD,1000000,Protection from violence and insecurity,PRO
+2024-08-22T00:00:00+00:00,PHL,0,Data collection and analysis for effective climate change response,HEA
+2024-08-21T00:00:00+00:00,Moz,1800000,"Food, nutrition, WASH, and protection services",FSC
+2024-08-21T00:00:00+00:00,SDN,500000,Food assistance to prevent famine,FSC
+2024-08-20T00:00:00+00:00,NGA,2110000,Protection (overall),PRO
+2024-08-20T00:00:00+00:00,PSE,640000,Polio vaccinations and humanitarian aid,HEA
+2024-08-20T00:00:00+00:00,COD,0,Health,HEA
+2024-08-16T00:00:00+00:00,COD,15764,"Support for mpox preparedness and response, including risk communication, infection prevention and control, medical and nutritional care, psychosocial support, integrated outbreak analysis, and coordination.",HEA
+2024-08-19T00:00:00+00:00,PSE,213000,"Fuel, medical supplies, and access to aid workers",HEA
+2024-08-19T00:00:00+00:00,SDN,143000,"Food and nutrition assistance, emergency shelter, and protection from waterborne diseases",FSC
+2024-08-19T00:00:00+00:00,UKR,0,Healthcare infrastructure and personnel,HEA
+2024-08-19T00:00:00+00:00,SDN,0,Protection (overall),PRO

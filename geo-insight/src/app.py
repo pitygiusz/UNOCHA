@@ -21,6 +21,8 @@ print("[DEBUG] All imports successful")
 # Get path to CSV file
 WORKSPACE_ROOT = Path(__file__).resolve().parent.parent.parent
 CSV_FILE_PATH = WORKSPACE_ROOT / "data" / "unocha_dataset.csv"
+ARTICLES_FILE_PATH = WORKSPACE_ROOT / "data" / "reliefweb_dataset.csv"
+
 
 print(f"[DEBUG] Workspace root: {WORKSPACE_ROOT}")
 print(f"[DEBUG] CSV file path: {CSV_FILE_PATH}")
@@ -42,7 +44,7 @@ async def chat_pipeline(message, history):
         # Step 2: Filter data from CSV
         print(f"[DEBUG] Step 2: Filtering data from CSV...")
         filtered_df = filter_humanitarian_data(agent_json, str(CSV_FILE_PATH))
-        filtered_articles = filter_articles(agent_json, str(CSV_FILE_PATH))
+        filtered_articles = filter_articles(agent_json, str(ARTICLES_FILE_PATH))
         
         print(f"[DEBUG] Filtered DataFrame shape: {filtered_df.shape}")
         
