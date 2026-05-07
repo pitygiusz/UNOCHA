@@ -1,10 +1,9 @@
-from pathlib import Path
 import os
-import requests
+from pathlib import Path
+from openai import AsyncOpenAI  # Używamy asynchronicznego klienta
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 SYSTEM_PROMPT_PATH = PROJECT_ROOT / "prompts" / "BriefingNoteWriter.md"
-
 
 async def brief_writer(
     data_as_csv: str, message: str, articles: str, interpretation_notes: str | None = None
@@ -16,38 +15,34 @@ async def brief_writer(
     )
 
     notes_instruction += f"This is the original user query: {message}."
-    notes_instruction += f"These are the most recent articles from that area and sector{articles}. Summarise them in the introduction."
+    notes_instruction += f"These are the most recent articles from that area and sector: {articles}. Summarise them in the introduction."
+    
     system_prompt = SYSTEM_PROMPT_PATH.read_text().replace(
         "{{interpretation_notes}}", notes_instruction
     )
 
-    # Use OpenRouter API
-    api_key = os.getenv("OPENROUTER_API_KEY")
-    if not api_key:
-        raise ValueError("OPENROUTER_API_KEY environment variable not set")
-    
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-        "HTTP-Referer": "https://huggingface.co/spaces",
-        "X-Title": "UNOCHA Geo-Insight"
-    }
-    
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json={
-            "model": "claude-3.5-sonnet",
-            "max_tokens": 2048,
-            "system": system_prompt,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": (f"Data (CSV):\n{data_as_csv}"),
-                }
-            ],
-        }
+    # Inicjalizacja klienta OpenRouter (korzysta ze standardu OpenAI)
+    client = AsyncOpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=os.environ.get("openai_api_key"),
+        
     )
-    
-    response.raise_for_status()
-    return response.json()["choices"][0]["message"]["content"]
+
+    # Wysłanie zapytania asynchronicznie (zauważ 'await' na początku)
+    response = await client.chat.completions.create(
+        model="openai/gpt-4o-mini", # Przykładowy darmowy model - możesz zmienić
+        max_tokens=2048,
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt,
+            },
+            {
+                "role": "user",
+                "content": f"Data (CSV):\n{data_as_csv}",
+            }
+        ],
+    )
+
+    # Struktura zwracanej odpowiedzi z OpenRouter jest inna niż w Anthropic
+    return response.choices[0].message.content

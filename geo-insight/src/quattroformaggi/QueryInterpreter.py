@@ -1,9 +1,9 @@
+import os
 import json
 from datetime import date
 from pathlib import Path
-import os
-import requests
 
+from openai import AsyncOpenAI  # Zmieniono na klienta OpenAI
 from models.QuerySpec import QuerySpec
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -16,41 +16,39 @@ async def interpret_query(user_query: str) -> QuerySpec:
     )
     schema = json.dumps(QuerySpec.model_json_schema(), indent=2)
 
-    # Use OpenRouter API
-    api_key = os.getenv("OPENROUTER_API_KEY")
-    if not api_key:
-        raise ValueError("OPENROUTER_API_KEY environment variable not set")
-    
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-        "HTTP-Referer": "https://huggingface.co/spaces",
-        "X-Title": "UNOCHA Geo-Insight"
-    }
-    
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json={
-            "model": "claude-3.5-sonnet",
-            "max_tokens": 1024,
-            "system": system_prompt,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": (
-                        f"Interpret this query:\n\n{user_query}\n\n"
-                        "Respond with a single JSON object matching this schema — no markdown, no explanation:\n"
-                        f"{schema}"
-                    ),
-                }
-            ],
-        }
+    # Inicjalizacja asynchronicznego klienta pod OpenRouter
+    client = AsyncOpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=os.environ.get("openai_api_key"),
+        
     )
+
+    # Używamy słowa kluczowego await dla asynchronicznego wywołania
+    response = await client.chat.completions.create(
+        model="openai/gpt-4o-mini", # Możesz użyć innego darmowego modelu
+        max_tokens=1024,
+        response_format={"type": "json_object"}, # Wymusza na modelu zwrócenie poprawnego JSONa
+        messages=[
+            {
+                "role": "system",
+                "content": system_prompt,
+            },
+            {
+                "role": "user",
+                "content": (
+                    f"Interpret this query:\n\n{user_query}\n\n"
+                    "Respond with a single JSON object matching this schema — no markdown, no explanation:\n"
+                    f"{schema}"
+                ),
+            }
+        ],
+    )
+
+    # Wyciągamy zawartość tekstową z odpowiedzi OpenAI/OpenRouter
+    text = response.choices[0].message.content.strip()
     
-    response.raise_for_status()
-    text = response.json()["choices"][0]["message"]["content"].strip()
-    
+    # Czyszczenie markdownu (zostawiamy to zabezpieczenie na wypadek, gdyby model zignorował polecenie "no markdown")
     if text.startswith("```"):
         text = text.split("\n", 1)[1].rsplit("```", 1)[0]
+        
     return QuerySpec.model_validate_json(text)
