@@ -13,6 +13,8 @@ pinned: false
 
 This repository contains solution for the UN OCHA challange, developed by the QuattroFormaggi team during the **2026 Datathon** organised by **Analytics Club** at ETH Zurich. It is Switzerland's largest hackathon with over 200 participants from 24 universities. Learn more [here](https://www.datathon.ai/).
 
+We created an interactive briefing note generator that helps humanitarian coordinators quickly understand the funding landscape of crises around the world. By asking natural language questions, users can get professional reports with key insights, funding gaps, and contextual analysis based on historical data and recent news. 
+
 ## Motivation
 
 As conflicts, famine, natural disasters and other crises emerge, the question of distributing funding also arises. Organizations like UN OCHA take on this task, analyzing vast amounts of data to make sure that the money is given to those in need. However, working with humanitarian data is not easy for a few reasons. Firstly and most importantly, it represents real people, often in vulnerable situations, and they should not be treated as just data points. Secondly, crises are complex mechanisms that just cannot be condensed into a table or a plot.
