@@ -97,8 +97,8 @@ print("[DEBUG] Configuring Gradio interface...")
 # Użyj prostego ChatInterface
 demo = gr.ChatInterface(
     fn=chat_pipeline,
-    title="Geo-Insight Assistant",
-    description="Ask a natural language question about financial gaps in humanitarian crises.",
+    title="Geo-Insight: Gap Finder Assistant",
+    description="Ask a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.",
     examples=[
         "Show underfunded food crises in the Sahel since 2022.",
         "Current humanitarian needs in Middle East.",
