@@ -1,4 +1,5 @@
 import os
+import json
 from pathlib import Path
 from openai import AsyncOpenAI  # Używamy asynchronicznego klienta
 
@@ -8,9 +9,19 @@ SYSTEM_PROMPT_PATH = PROJECT_ROOT / "prompts" / "BriefingNoteWriter.md"
 async def brief_writer(
     data_as_csv: str, message: str, articles: str, interpretation_notes: str | None = None
 ) -> str:
+    # Extract natural language interpretation notes from JSON if provided
+    extracted_notes = None
+    if interpretation_notes:
+        try:
+            notes_data = json.loads(interpretation_notes)
+            extracted_notes = notes_data.get("interpretation_notes", interpretation_notes)
+        except (json.JSONDecodeError, AttributeError):
+            # If not valid JSON, use as-is
+            extracted_notes = interpretation_notes
+    
     notes_instruction = (
-        f"\n5. **Interpretation Notes:** Add the following as the first paragraph of the briefing note:\n{interpretation_notes}\n"
-        if interpretation_notes
+        f"\n5. **Interpretation Notes:** Add the following as the first paragraph of the briefing note:\n{extracted_notes}\n"
+        if extracted_notes
         else ""
     )
 
