@@ -1,7 +1,6 @@
 import os
 import sys
 import traceback
-import pandas as pd
 from pathlib import Path
 
 # Add src module to path
@@ -33,7 +32,7 @@ print(f"[DEBUG] CSV file exists: {CSV_FILE_PATH.exists()}")
 async def chat_pipeline(message, history):
     print(f"\n[DEBUG] === Starting chat_pipeline ===")
     print(f"[DEBUG] User message: {message}")
-    print(f"[DEBUG] History length: {len(history)}")
+    print(f"[DEBUG] History length: {len(history) if history else 0}")
     
     try:
         # Step 1: Agent 1 interprets the natural language query
@@ -82,31 +81,7 @@ async def chat_pipeline(message, history):
         agent2_result = await brief_writer(data_as_csv_string, message, articles_as_string, agent1_result.model_dump_json())
         print(f"[DEBUG] Agent 2 result length: {len(agent2_result)} characters")
         
-        # Append the filtered DataFrame as a markdown table
-        print("[DEBUG] Appending filtered DataFrame to result...")
-        # 1. Aggregation (Group by country)
-        print_df = filtered_df.groupby("country_code").agg({
-            "population": "max", 
-            "total_required_funds": "sum", 
-            "total_granted_funds": "sum", 
-            "severity_index": "max" 
-        }).reset_index()
-
-        # Format columns
-        print_df['population'] = print_df['population'].map(lambda x: f"{x/1000000:.1f}M" if pd.notnull(x) else "N/A")
-        print_df['total_required_funds'] = print_df['total_required_funds'].map(lambda x: f"${x/1000000:.1f}M" if pd.notnull(x) else "N/A")
-        print_df['total_granted_funds'] = print_df['total_granted_funds'].map(lambda x: f"${x/1000000:.1f}M" if pd.notnull(x) else "N/A")
-
-        print_df = print_df.rename(columns={
-            "country_code": "Country",
-            "population": "Population",
-            "total_required_funds": "Required Funds",
-            "total_granted_funds": "Granted Funds",
-            "severity_index": "Severity Index"
-        })
-        
-        df_markdown = "\n\n---\n\n## Summary Data Table\n\n" + print_df.to_markdown(index=False)
-        final_result = agent2_result + df_markdown
+        final_result = agent2_result
         
         print("[DEBUG] === Pipeline completed successfully ===\n")
         return final_result
@@ -117,80 +92,13 @@ async def chat_pipeline(message, history):
         print(f"[ERROR] Traceback:\n{error_traceback}")
         return f"**Pipeline Error:** {str(e)}"
 
-print("[DEBUG] Configuring custom Gradio layout...")
-
-# ==========================================
-# CUSTOM UI STYLING & BEHAVIOR
-# ==========================================
-
-custom_css = """
-/* Narrower container for better readability */
-.gradio-container {
-    max-width: 900px !important;
-    margin: auto !important;
-}
-
-/* Force light background */
-body, .gradio-container {
-    background-color: #FDFBF7 !important;
-}
-
-/* Improve chat bubble styling for readability */
-.message-wrap {
-    font-size: 15px;
-    line-height: 1.6;
-}
-.bot.message {
-    background-color: #ffffff !important;
-    border: 1px solid #eaeaea !important;
-    color: #111111 !important;
-    font-family: 'Times New Roman', Times, serif;
-}
-.user.message {
-    background-color: #f3f4f6 !important;
-    color: #111111 !important;
-}
-
-/* Fix Markdown Code / Inline Code Styling */
-code, pre {
-    background-color: #F5F5F5 !important;
-    color: #111111 !important;
-    border: 1px solid #E0E0E0 !important;
-    border-radius: 4px !important;
-}
-
-/* Table Styling */
-table {
-    width: 100% !important;
-    border-collapse: collapse !important;
-    margin: 1em 0 !important;
-}
-table th, table td {
-    border: 1px solid #DDDDDD !important;
-    padding: 8px 12px !important;
-    text-align: left !important;
-}
-table th {
-    background-color: #F5F5F5 !important;
-    font-weight: bold !important;
-    color: #111111 !important;
-}
-"""
-
 print("[DEBUG] Configuring Gradio interface...")
 
-# Configure Gradio interface with enhanced styling
-theme = gr.themes.Soft(
-    primary_hue="blue",
-    secondary_hue="slate",
-    font=[gr.themes.GoogleFont("Helvetica Neue"), "ui-sans-serif", "system-ui", "sans-serif"],
-).set(
-    body_background_fill="#FDFBF7",
-    color_accent_soft="#f3f4f6",
-)
-
+# Użyj prostego ChatInterface
 demo = gr.ChatInterface(
     fn=chat_pipeline,
+    title="Geo-Insight: Gap Finder Assistant",
+    description="Ask a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.",
     examples=[
         "Show underfunded food crises in the Sahel since 2022.",
         "Current humanitarian needs in Middle East.",
@@ -202,8 +110,4 @@ print("[DEBUG] Gradio interface configured")
 
 if __name__ == "__main__":
     print("[DEBUG] Starting Gradio app launch...")
-    with gr.Blocks(theme=theme, css=custom_css) as app:
-        gr.Markdown("# Geo-Insight: Gap Finder Assistant\nAsk a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.")
-        demo.render()
-        
-    app.launch(share=True)
+    demo.launch(share=True)
