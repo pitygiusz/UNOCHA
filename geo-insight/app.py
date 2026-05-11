@@ -191,19 +191,19 @@ theme = gr.themes.Soft(
 
 demo = gr.ChatInterface(
     fn=chat_pipeline,
-    title="Geo-Insight: Gap Finder Assistant",
-    description="Ask a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.",
     examples=[
         "Show underfunded food crises in the Sahel since 2022.",
         "Current humanitarian needs in Middle East.",
         "Countries with highest severity but lowest funding."
-    ],
-    theme=theme,
-    css=custom_css
+    ]
 )
 
 print("[DEBUG] Gradio interface configured")
 
 if __name__ == "__main__":
     print("[DEBUG] Starting Gradio app launch...")
-    demo.launch(share=True)
+    with gr.Blocks(theme=theme, css=custom_css) as app:
+        gr.Markdown("# Geo-Insight: Gap Finder Assistant\nAsk a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.")
+        demo.render()
+        
+    app.launch(share=True)
