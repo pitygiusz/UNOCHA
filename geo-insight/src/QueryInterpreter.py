@@ -6,7 +6,7 @@ from pathlib import Path
 from openai import AsyncOpenAI  # Zmieniono na klienta OpenAI
 from QuerySpec import QuerySpec
 
-SYSTEM_PROMPT_PATH =  "QueryInterpreter.md"
+SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "QueryInterpreter.md"
 
 
 async def interpret_query(user_query: str) -> QuerySpec:

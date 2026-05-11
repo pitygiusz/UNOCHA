@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from openai import AsyncOpenAI  # Używamy asynchronicznego klienta
 
-SYSTEM_PROMPT_PATH = "BriefingNoteWriter.md"
+SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "BriefingNoteWriter.md"
 
 async def brief_writer(
     data_as_csv: str, message: str, articles: str, interpretation_notes: str | None = None
