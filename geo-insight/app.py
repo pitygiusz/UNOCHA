@@ -11,10 +11,10 @@ print(f"[DEBUG] Current directory: {src_dir}")
 print(f"[DEBUG] sys.path: {sys.path[:3]}")
 
 import gradio as gr
-from quattroformaggi.BriefingNoteWriter import brief_writer
-from quattroformaggi.QueryInterpreter import interpret_query
-from quattroformaggi.query_to_sql import filter_humanitarian_data
-from quattroformaggi.query_to_articles import filter_articles
+from src.BriefingNoteWriter import brief_writer
+from src.QueryInterpreter import interpret_query
+from src.query_to_sql import filter_humanitarian_data
+from src.query_to_articles import filter_articles
 
 print("[DEBUG] All imports successful")
 

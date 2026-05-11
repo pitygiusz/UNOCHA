@@ -1,12 +1,11 @@
 ---
 title: UNOCHA Geo-Insight
-emoji: "💻"
 colorFrom: blue
 colorTo: gray
 sdk: gradio
 sdk_version: "6.14.0"
 python_version: "3.13"
-app_file: geo-insight/src/app.py
+app_file: geo-insight/app.py
 pinned: false
 ---
 
@@ -18,173 +17,151 @@ As conflicts, famine, natural disasters and other crises emerge, the question of
 
 Coordinators at organizations such as OCHA need tools that provide them with holistic, descriptive, and expert-level information. That's why we created **Geo-Insight Assistant** — an interactive briefing note generator. It focuses on providing a range of information regarding the queried topic in a one-sheet, ready-to-print text format.
 
-### 🎯 Key Features
+## Key Features
 
-- 🔍 **Natural Language Queries** - Ask questions like "Show underfunded food crises in the Sahel"
-- 📊 **Intelligent Data Filtering** - Powered by Claude AI for query interpretation
-- 📝 **Professional Briefing Notes** - AI-generated reports with key insights and funding gaps
-- 💾 **Export Capabilities** - Save results as PDF for sharing
-- 🚀 **Cloud-Ready** - Deployed on Hugging Face Spaces with OpenRouter API
+- **Natural Language Queries** - Ask questions like "Show underfunded food crises in the Sahel" or "Current humanitarian needs in Middle East"
+- **Intelligent Data Filtering** - Powered by Claude AI for accurate query interpretation into structured database filters
+- **Professional Briefing Notes** - AI-generated reports with key insights, funding gaps, and contextual analysis
+- **PDF Export** - Save results for sharing with stakeholders and decision-makers
+- **Cloud Deployment** - Runs on Hugging Face Spaces with OpenRouter API (zero infrastructure costs)
 
-### ⚡ Quick Start (Local Development)
+## Quick Start on Hugging Face Spaces
+
+Deploy your own instance in minutes:
+
+1. Create a new Space on Hugging Face: https://huggingface.co/spaces/new
+2. Choose "Gradio" as the SDK
+3. Connect this repository
+4. Add your OpenRouter API key as a secret (get one free at https://openrouter.ai/)
+5. Space will deploy automatically
+
+No Docker, no server management, no DevOps experience needed.
+
+## Local Development
 
 ```bash
-# 1. Clone and setup
-./setup.sh
+# Install dependencies
+pip install -r requirements.txt
 
-# 2. Add your OpenRouter API key to .env
-# Get key from https://openrouter.ai/
+# Add your OpenRouter API key
+cp geo-insight/.env.example geo-insight/.env
+# Edit .env with your API key
 
-# 3. Run the app
+# Run locally
 python geo-insight/app.py
 
-# 4. Open in browser
-# http://localhost:7860
+# Open browser to http://localhost:7860
 ```
 
-### 📖 Full Documentation
-
-- **[Setup & Deployment Guide](./geo-insight/HF_SPACES_README.md)** - Deploy on Hugging Face Spaces
-- **[Migration Guide](./MIGRATION_GUIDE.md)** - Technical details of Databricks → CSV + OpenRouter changes
-- **[Local Setup](./geo-insight/README.md)** - Detailed local development guide
-
-### 🏗 Architecture
+## Architecture
 
 ```
 User Query (Natural Language)
-    ↓
-Query Interpreter (Claude 3.5 Sonnet via OpenRouter)
-    ↓ [Structured Query JSON]
+    |
+    v
+Query Interpreter (Claude 3.5 Sonnet via OpenRouter API)
+    |
+    v (Structured Query JSON with regions, sectors, date ranges)
 Data Filtering (CSV-based pandas operations)
-    ↓ [Filtered Dataset]
-Briefing Note Writer (Claude 3.5 Sonnet via OpenRouter)
-    ↓ [Professional Report]
-User (with PDF export option)
+    |
+    v (Relevant humanitarian data subset)
+Briefing Note Writer (Claude 3.5 Sonnet via OpenRouter API)
+    |
+    v
+Professional Briefing Note + PDF Export
 ```
 
-### 📊 Data Source
+The system is built on a clean separation of concerns:
+- **Query Interpretation**: Converts natural language questions into structured database queries
+- **Data Layer**: CSV-based filtering with pandas (no external databases required)
+- **Report Generation**: AI-powered briefing notes with context and insights
 
+## Data Sources
 
-1. Download appropriate datasets from the following links:
-   - https://data.humdata.org/dataset/global-hpc-hno (make sure to add the year column in order to distinguish between records in provided CSV files),
-   - https://data.humdata.org/dataset/global-requirements-and-funding-data &ndash; specifically, `fts_requirements_funding_global.csv` and `fts_incoming_funding_global.csv`,
-   - https://data.worldbank.org/indicator/SP.POP.TOTL?end=2023&start=2001 &ndash; in this case, the resulting CSV file should be flattened so that it has 3 columns - `Country Code`, `year` and `population`,
-   - https://www.acaps.org/en/data (optional) &ndash; contains monthly severity indices per crisis; requires some preprocessing before ingesting
+The application uses humanitarian data from multiple authoritative sources:
 
+- UN OCHA HPC: Global humanitarian needs and response data
+- World Bank: Population statistics for context
+- ReliefWeb: Latest crisis news and articles
+- FTS Global: Requirements and funding data
 
-- **Format**: CSV (local file: `data/unocha_dataset.csv`)
-- **Records**: 7,610+ humanitarian crisis data points
-- **Columns**: Country code, sector, population, funding gaps, severity metrics
-- **No external database required** - Simple CSV-based filtering
+All data is stored locally as CSV files (7,600+ crisis records) for fast access and cost efficiency.
 
-### 🔑 API Provider
+## Technology Stack
 
-- **Provider**: OpenRouter (https://openrouter.ai/)
-- **Model**: Claude 3.5 Sonnet
-- **Cost**: ~$0.003 per request (~$10/month for typical usage)
-- **Benefits**: Cost-effective, reliable, no lock-in to single provider
+- **Frontend**: Gradio (Python-based web UI)
+- **Backend**: Python with pandas for data processing
+- **AI Models**: Claude 3.5 Sonnet via OpenRouter API
+- **Hosting**: Hugging Face Spaces
+- **Data Format**: CSV (no database dependencies)
 
-### 📋 Query Examples
+## Example Queries
 
-Try these natural language queries:
+The system accepts natural language questions like:
 
-```
-"Show underfunded food crises in the Sahel since 2022"
-"Current humanitarian needs in Middle East"
-"Countries with critical funding gaps despite high severity"
-"Protection sector emergencies in East Africa"
-"Recent crises receiving less than 20% of required funds"
-```
+- "Show underfunded food crises in the Sahel since 2022"
+- "Current humanitarian needs in Middle East"
+- "Countries with critical funding gaps despite high severity"
+- "Protection sector emergencies in East Africa"
+- "Recent crises receiving less than 20% of required funds"
 
-### 🚀 Deployment
+Each query generates a professional briefing note with:
+- Executive summary
+- Contextual analysis
+- Key funding gaps
+- Regional trends
+- Recommendations for resource allocation
 
-#### Option 1: Hugging Face Spaces (Recommended)
-- Zero infrastructure cost
-- Automatic scaling
-- Easy secrets management
-- Custom domain optional
+## Cost Efficiency
 
-See: [HF_SPACES_README.md](./geo-insight/HF_SPACES_README.md)
+- **Infrastructure**: $0 (Hugging Face Spaces free tier)
+- **API Costs**: ~$0.003 per request (~$10/month for typical usage)
+- **Total Monthly Cost**: ~$10 for production use
+- **Previous Solution**: $500+/month with Databricks + proprietary APIs
 
-#### Option 2: Local/Docker
-- Full control
-- Development testing
-- Private deployment
+This project demonstrates how modern open-source tools and cost-effective APIs can build production-grade humanitarian applications without expensive infrastructure.
 
-### 📁 Project Structure
+## Development Notes
+
+This was built during the UNOCHA Datathon 2026 as a solution to help humanitarian coordinators make better allocation decisions through accessible, intelligent tools. The focus has been on:
+
+1. **Usability**: Natural language queries instead of database knowledge
+2. **Cost**: Minimal operational expenses for NGOs
+3. **Reliability**: Simple architecture with no external dependencies beyond APIs
+4. **Professionalism**: Polished reports suitable for decision-making
+
+## Further Reading
+
+- OpenRouter API Documentation: https://openrouter.ai/docs
+- Hugging Face Spaces: https://huggingface.co/spaces
+- Gradio Documentation: https://gradio.app
+- UN OCHA Data: https://data.humdata.org
+
+## Project Structure
 
 ```
 UNOCHA/
 ├── data/
-│   └── unocha_dataset.csv          # Humanitarian data (7,600+ rows)
+│   ├── unocha_dataset.csv          # Humanitarian crisis data (7,600+ records)
+│   └── reliefweb_dataset.csv       # News and articles data
 ├── geo-insight/
-│   ├── src/
-│   │   ├── app.py                  # Main Gradio application
-│   │   ├── requirements.txt         # Python dependencies
-│   │   ├── models/
-│   │   │   └── QuerySpec.py         # Data schema
-│   │   ├── prompts/
-│   │   │   ├── QueryInterpreter.md  # System prompts
-│   │   │   └── BriefingNoteWriter.md
-│   │   └── quattroformaggi/         # Core modules
-│   │       ├── QueryInterpreter.py
-│   │       ├── BriefingNoteWriter.py
-│   │       ├── query_to_sql.py
-│   │       └── query_to_articles.py
-│   ├── .env.example                 # Environment template
-│   ├── HF_SPACES_README.md          # Deployment guide
-│   └── app.yaml                     # Gradio Space config
-├── MIGRATION_GUIDE.md               # Databricks → CSV migration
-├── setup.sh                         # Setup script
-├── test_setup.py                    # Validation tests
-├── Dockerfile                       # Container definition
-└── README.md                        # This file
+│   ├── app.py                      # Main Gradio application entry point
+│   ├── .env.example                # Environment variables template
+│   ├── README.md                   # Detailed setup guide
+│   └── src/
+│       ├── QueryInterpreter.py     # Query parsing logic
+│       ├── BriefingNoteWriter.py   # Report generation
+│       ├── QueryInterpreter.md     # System prompt for query parsing
+│       ├── BriefingNoteWriter.md   # System prompt for report writing
+│       ├── query_to_sql.py         # Data filtering logic
+│       ├── query_to_articles.py    # Article retrieval logic
+│       ├── QuerySpec.py            # Data schema and validation
+│       └── __init__.py             # Package initialization
+├── notebooks/
+│   └── (Data exploration and analysis notebooks)
+├── documentation/
+│   └── (Architecture and technical documentation)
+├── requirements.txt                # Python dependencies
+├── Dockerfile                      # Container configuration
+└── README.md                       # This file
 ```
-
-### 💡 Recent Changes
-
-**Version 2.0 (May 2026):**
-- ✅ Migrated from Databricks SQL to CSV-based data
-- ✅ Switched from Anthropic SDK to OpenRouter API
-- ✅ Optimized for Hugging Face Spaces deployment
-- ✅ Reduced infrastructure costs by 99%
-- ✅ Maintained all functionality and performance
-
-See [MIGRATION_GUIDE.md](./MIGRATION_GUIDE.md) for technical details.
-
-### 🧪 Testing
-
-```bash
-# Validate setup
-python test_setup.py
-
-# Run local dev server
-python geo-insight/src/app.py
-
-# Run Gradio tests (if implemented)
-# pytest tests/
-```
-
-### 📞 Support
-
-- **API Issues**: Check [OpenRouter docs](https://openrouter.ai/docs)
-- **Deployment**: See [HF Spaces guide](./geo-insight/HF_SPACES_README.md)
-- **Data Issues**: Check CSV format in [Migration Guide](./MIGRATION_GUIDE.md)
-
-### 📄 License
-
-[Your License Here]
-
-### 👥 Credits
-
-Built by **QuattroFormaggi** for UNOCHA Datathon 2026
-
----
-
-**Live Demo**: [Coming soon - Deploy your own Space!](https://huggingface.co/spaces/new)
-
-Need help? Check the [documentation](./geo-insight/HF_SPACES_README.md) or run `python test_setup.py` to validate your setup.
-
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
-emoji: 💻

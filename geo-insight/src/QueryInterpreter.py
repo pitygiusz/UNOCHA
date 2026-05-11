@@ -4,10 +4,9 @@ from datetime import date
 from pathlib import Path
 
 from openai import AsyncOpenAI  # Zmieniono na klienta OpenAI
-from models.QuerySpec import QuerySpec
+from QuerySpec import QuerySpec
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-SYSTEM_PROMPT_PATH = PROJECT_ROOT / "prompts" / "QueryInterpreter.md"
+SYSTEM_PROMPT_PATH =  "QueryInterpreter.md"
 
 
 async def interpret_query(user_query: str) -> QuerySpec:
