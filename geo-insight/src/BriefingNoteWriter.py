@@ -1,7 +1,7 @@
 import os
 import json
 from pathlib import Path
-from openai import AsyncOpenAI  # Używamy asynchronicznego klienta
+from openai import AsyncOpenAI  
 
 SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "BriefingNoteWriter.md"
 
@@ -32,16 +32,14 @@ async def brief_writer(
     )
     print(f"[DEBUG] System prompt: {system_prompt}")  # Debug print
 
-    # Inicjalizacja klienta OpenRouter (korzysta ze standardu OpenAI)
     client = AsyncOpenAI(
         base_url="https://openrouter.ai/api/v1",
         api_key=os.environ.get("openai_api_key"),
         
     )
 
-    # Wysłanie zapytania asynchronicznie (zauważ 'await' na początku)
     response = await client.chat.completions.create(
-        model="google/gemini-3-flash-preview", # Przykładowy darmowy model - możesz zmienić
+        model="google/gemini-3-flash-preview", 
         max_tokens=2048,
         messages=[
             {
@@ -55,5 +53,4 @@ async def brief_writer(
         ],
     )
 
-    # Struktura zwracanej odpowiedzi z OpenRouter jest inna niż w Anthropic
     return response.choices[0].message.content

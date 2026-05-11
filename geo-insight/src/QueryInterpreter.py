@@ -3,7 +3,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from openai import AsyncOpenAI  # Zmieniono na klienta OpenAI
+from openai import AsyncOpenAI  
 from QuerySpec import QuerySpec
 
 SYSTEM_PROMPT_PATH = Path(__file__).resolve().parent / "QueryInterpreter.md"
@@ -15,18 +15,16 @@ async def interpret_query(user_query: str) -> QuerySpec:
     )
     schema = json.dumps(QuerySpec.model_json_schema(), indent=2)
 
-    # Inicjalizacja asynchronicznego klienta pod OpenRouter
     client = AsyncOpenAI(
         base_url="https://openrouter.ai/api/v1",
         api_key=os.environ.get("openai_api_key"),
         
     )
 
-    # Używamy słowa kluczowego await dla asynchronicznego wywołania
     response = await client.chat.completions.create(
-        model="google/gemini-3-flash-preview", # Możesz użyć innego darmowego modelu
+        model="google/gemini-3-flash-preview", 
         max_tokens=1024,
-        response_format={"type": "json_object"}, # Wymusza na modelu zwrócenie poprawnego JSONa
+        response_format={"type": "json_object"}, 
         messages=[
             {
                 "role": "system",
@@ -43,10 +41,9 @@ async def interpret_query(user_query: str) -> QuerySpec:
         ],
     )
 
-    # Wyciągamy zawartość tekstową z odpowiedzi OpenAI/OpenRouter
+
     text = response.choices[0].message.content.strip()
     
-    # Czyszczenie markdownu (zostawiamy to zabezpieczenie na wypadek, gdyby model zignorował polecenie "no markdown")
     if text.startswith("```"):
         text = text.split("\n", 1)[1].rsplit("```", 1)[0]
         

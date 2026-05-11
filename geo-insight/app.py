@@ -94,7 +94,6 @@ async def chat_pipeline(message, history):
 
 print("[DEBUG] Configuring Gradio interface...")
 
-# Użyj prostego ChatInterface
 demo = gr.ChatInterface(
     fn=chat_pipeline,
     title="Geo-Insight: Gap Finder Assistant",
