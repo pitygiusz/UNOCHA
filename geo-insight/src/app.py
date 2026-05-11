@@ -101,8 +101,8 @@ demo = gr.ChatInterface(
     description="Ask a natural language question about financial gaps in humanitarian crises.",
     examples=[
         "Show underfunded food crises in the Sahel since 2022.",
-        "Current state of Middle East.",
-        "History of funding in Africa."
+        "Current humanitarian needs in Middle East.",
+        "Countries with highest severity but lowest funding."
     ]
 )
 

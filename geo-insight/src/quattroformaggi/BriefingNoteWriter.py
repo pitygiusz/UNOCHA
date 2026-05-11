@@ -20,17 +20,18 @@ async def brief_writer(
             extracted_notes = interpretation_notes
     
     notes_instruction = (
-        f"Add the following as the first paragraph of the briefing note:\n{extracted_notes}\n under **Interpretation Notes:** section.\n"
+        f"Add the following as the first paragraph (**Interpretation Notes**) of the briefing note:\n{extracted_notes}\n"
         if extracted_notes
         else ""
     )
 
     notes_instruction += f"This is the original user query: {message}."
-    notes_instruction += f"These are the most recent articles from that area and sector: {articles}. Summarise them in the introduction."
+    notes_instruction += f"These are the most recent articles from that area and sector: {articles}."
     
     system_prompt = SYSTEM_PROMPT_PATH.read_text().replace(
         "{{interpretation_notes}}", notes_instruction
     )
+    print(f"[DEBUG] System prompt: {system_prompt}")  # Debug print
 
     # Inicjalizacja klienta OpenRouter (korzysta ze standardu OpenAI)
     client = AsyncOpenAI(

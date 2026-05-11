@@ -1,10 +1,10 @@
-gradio>=4.44.0gradio>=4.44.0
+gradio>=4.44.0
 
 pandaspandas
 
 pydanticpydantic
 
-typing_extensionstyping_extensions
+typing_extensions
 
 reportlabreportlab
 
@@ -14,8 +14,8 @@ tabulatetabulate
 
 requestsrequests
 
-python-dotenvpython-dotenv
+python-dotenv
 
-openai>=1.0.0openai>=1.0.0
+openai>=1.0.0
 
 
