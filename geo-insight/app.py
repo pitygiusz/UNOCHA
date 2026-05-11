@@ -95,29 +95,26 @@ async def chat_pipeline(message, history):
 print("[DEBUG] Configuring Gradio interface...")
 
 # Configure Gradio interface with enhanced styling
-demo = gr.ChatInterface(
-    fn=chat_pipeline,
-    title="Geo-Insight: Gap Finder Assistant",
-    description="Ask a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.",
-    examples=[
-        "Show underfunded food crises in the Sahel since 2022.",
-        "Current humanitarian needs in Middle East.",
-        "Countries with highest severity but lowest funding."
-    ],
-    theme=gr.themes.Soft(
-        primary_hue="blue",
-        secondary_hue="slate",
-    ),
-    css="""
-    .chatbot-container {
-        max-width: 800px !important;
-    }
-    #chatbot {
-        max-width: 800px !important;
-        height: 600px;
-    }
-    """
+theme = gr.themes.Soft(
+    primary_hue="blue",
+    secondary_hue="slate",
 )
+
+with gr.Blocks(theme=theme, css="""
+    .container { max-width: 800px; margin: auto; }
+""") as demo:
+    gr.Markdown("# Geo-Insight: Gap Finder Assistant")
+    gr.Markdown("Ask a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.")
+    
+    with gr.Column(elem_classes="container"):
+        gr.ChatInterface(
+            fn=chat_pipeline,
+            examples=[
+                "Show underfunded food crises in the Sahel since 2022.",
+                "Current humanitarian needs in Middle East.",
+                "Countries with highest severity but lowest funding."
+            ]
+        )
 
 print("[DEBUG] Gradio interface configured")
 
