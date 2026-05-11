@@ -11,7 +11,11 @@ pinned: false
 
 # Geo-Insight: Which Crises Are Most Overlooked?
 
+Live demo [here](https://huggingface.co/spaces/pitygiusz/UNOCHA).
+
 This repository contains solution for the UN OCHA challange, developed by the QuattroFormaggi team during the **2026 Datathon** organised by **Analytics Club** at ETH Zurich. It is Switzerland's largest hackathon with over 200 participants from 24 universities. Learn more [here](https://www.datathon.ai/).
+
+We created an interactive briefing note generator that helps humanitarian coordinators quickly understand the funding landscape of crises around the world. By asking natural language questions, users can get professional reports with key insights, funding gaps, and contextual analysis based on historical data and recent news. 
 
 ## Motivation
 
