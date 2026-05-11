@@ -30,9 +30,10 @@ print(f"[DEBUG] CSV file path: {CSV_FILE_PATH}")
 print(f"[DEBUG] CSV file exists: {CSV_FILE_PATH.exists()}")
 
 # Main chat pipeline function
-async def chat_pipeline(message):
+async def chat_pipeline(message, history):
     print(f"\n[DEBUG] === Starting chat_pipeline ===")
     print(f"[DEBUG] User message: {message}")
+    print(f"[DEBUG] History length: {len(history)}")
     
     try:
         # Step 1: Agent 1 interprets the natural language query
@@ -123,318 +124,83 @@ print("[DEBUG] Configuring custom Gradio layout...")
 # ==========================================
 
 custom_css = """
-/* Force background everywhere to remove dark stripes */
-html, body, gradio-app, .gradio-container {
-    background-color: #FDFBF7 !important; 
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/* Narrower container for better readability */
+.gradio-container {
+    max-width: 900px !important;
+    margin: auto !important;
 }
 
-/* Force ALL text globally to be dark to prevent bleeding */
-html, body, gradio-app, .gradio-container, h1, h2, h3, h4, h5, h6, p, span, div, label, strong, b, em, i {
+/* Force light background */
+body, .gradio-container {
+    background-color: #FDFBF7 !important;
+}
+
+/* Improve chat bubble styling for readability */
+.message-wrap {
+    font-size: 15px;
+    line-height: 1.6;
+}
+.bot.message {
+    background-color: #ffffff !important;
+    border: 1px solid #eaeaea !important;
+    color: #111111 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+.user.message {
+    background-color: #f3f4f6 !important;
     color: #111111 !important;
 }
 
-/* Center layouts */
-.center-container {
-    max-width: 800px !important;
-    margin: 15vh auto !important;
-}
-
-.paper-container {
-    max-width: 900px !important;
-    margin: 40px auto !important;
-}
-
-/* Fix Input Box styling */
-textarea {
-    background-color: #FFFFFF !important;
-    color: #000000 !important;
-    border: 1px solid #CCCCCC !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05) !important;
-}
-textarea::placeholder {
-    color: #888888 !important;
-}
-
-/* ALL BUTTONS: Very light grey background, dark text */
-button, .gr-button, .gr-button-primary, .gr-button-secondary {
-    background-color: #F3F4F6 !important; /* Lighter grey */
-    color: #000000 !important;
-    border: 1px solid #D1D5DB !important;
-}
-button:hover, .gr-button:hover, .gr-button-primary:hover, .gr-button-secondary:hover {
-    background-color: #E5E7EB !important; /* Slightly darker on hover */
-}
-
-/* SEND BUTTON - custom color */
-.send-btn {
-    background-color: #6e5353 !important;
-    color: #FFFFFF !important;
-    border: 1px solid #5a4444 !important;
-}
-
-.send-btn:hover {
-    background-color: #5a4444 !important;
-}
-
-.send-btn:active {
-    background-color: #4a3838 !important;
-}
-
-/* Fix Examples styling */
-.gr-samples button {
-    background-color: #FFFFFF !important;
-}
-.gr-samples button:hover {
-    background-color: #F9FAFB !important;
-}
-.gr-samples > span.label {
-    color: #666666 !important;
-}
-
-/* Paper view styling - STRICTLY ALL BLACK TEXT */
-.paper-box {
-    background-color: #FFFFFF !important;
-    padding: 60px 80px !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08) !important;
-    border: 1px solid #EAEAEA !important;
-    min-height: 800px;
-    font-family: 'Times New Roman', Times, serif !important;
-    font-size: 16px;
-    line-height: 1.6;
-}
-.paper-box, .paper-box * {
-    color: #000000 !important; /* Forces all Markdown elements to be pure black */
-}
-
 /* Fix Markdown Code / Inline Code Styling */
-.paper-box code, .paper-box pre, code, pre {
-    background-color: #F5F5F5 !important; /* Light grey background for code */
-    color: #111111 !important;            /* Dark text */
-    border: 1px solid #E0E0E0 !important; /* Subtle border */
+code, pre {
+    background-color: #F5F5F5 !important;
+    color: #111111 !important;
+    border: 1px solid #E0E0E0 !important;
     border-radius: 4px !important;
-    padding: 0.1em 0.3em !important;
-    font-family: monospace !important;
-}
-.paper-box pre {
-    padding: 1em !important;
-    overflow-x: auto !important;
-}
-.paper-box pre code {
-    border: none !important;
-    background-color: transparent !important;
-    padding: 0 !important;
 }
 
-/* Table Styling - 100% width */
-.paper-box table {
+/* Table Styling */
+table {
     width: 100% !important;
     border-collapse: collapse !important;
     margin: 1em 0 !important;
 }
-.paper-box table th, .paper-box table td {
+table th, table td {
     border: 1px solid #DDDDDD !important;
     padding: 8px 12px !important;
     text-align: left !important;
 }
-.paper-box table th {
+table th {
     background-color: #F5F5F5 !important;
     font-weight: bold !important;
-}
-
-/* Spinning Wheel loader */
-.loader-wrapper {
-    text-align: center;
-    padding: 40px;
-}
-.spinner {
-    border: 5px solid #EAEAEA;
-    border-top: 5px solid #666666;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    animation: spin 1s linear infinite;
-    margin: 0 auto;
-}
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-.loader-text {
-    margin-top: 20px;
-    font-size: 16px;
-}
-.loader-text, .loader-text * {
-    color: #000000 !important; /* Explicitly dark text for the loading message */
-}
-
-/* Button Layout for Results */
-.action-buttons {
-    display: flex !important;
-    justify-content: flex-end !important;
-    gap: 15px !important;
-    margin-bottom: 20px !important;
-}
-
-/* ACTION BUTTONS - white text */
-.action-buttons button {
-    color: #FFFFFF !important;
-}
-
-/* Mobile Responsive Styles */
-@media screen and (max-width: 768px) {
-    .center-container {
-        max-width: 95% !important;
-        margin: 5vh auto !important;
-    }
-    
-    .paper-container {
-        max-width: 95% !important;
-        margin: 20px auto !important;
-    }
-    
-    .paper-box {
-        padding: 30px 20px !important;
-        font-size: 14px !important;
-    }
-    
-    .action-buttons {
-        flex-direction: column !important;
-        gap: 10px !important;
-    }
-    
-    .action-buttons button {
-        width: 100% !important;
-    }
-    
-    /* Mobile table styles - scrollable container */
-    .paper-box table {
-        display: block !important;
-        overflow-x: auto !important;
-        white-space: nowrap !important;
-        font-size: 12px !important;
-    }
-    
-    .paper-box table th, .paper-box table td {
-        padding: 6px 8px !important;
-        font-size: 12px !important;
-    }
-}
-
-/* Print specific styles */
-@media print {
-    body, .gradio-container, html { background-color: #FFFFFF !important; }
-    .action-buttons, footer, .gr-button { display: none !important; }
-    .paper-container { max-width: 100% !important; margin: 0 !important; }
-    .paper-box { 
-        box-shadow: none !important; 
-        border: none !important; 
-        padding: 0 !important; 
-    }
+    color: #111111 !important;
 }
 """
 
-with gr.Blocks(css=custom_css, theme=gr.themes.Default(neutral_hue="slate")) as demo:
-    
-    # ---------------------------
-    # VIEW 1: Input / Search
-    # ---------------------------
-    with gr.Column(visible=True, elem_classes=["center-container"]) as search_view:
-        gr.Markdown(
-            "<h1 style='text-align: center;'>Geo-Insight Assistant</h1>"
-            "<p style='text-align: center; color: #555555 !important; margin-bottom: 30px;'>Ask a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional Briefing Note.</p>"
-        )
-        
-        with gr.Row():
-            user_input = gr.Textbox(
-                placeholder="E.g., Show underfunded food crises in the Sahel since 2022...",
-                show_label=False,
-                scale=5,
-                container=False
-            )
-            submit_btn = gr.Button("Send", scale=1, elem_classes=["send-btn"])
-            
-        gr.Examples(
-            examples=[
-                "Show underfunded food crises in the Sahel since 2022.",
-                "Current state of Middle East.",
-                "History of funding in Africa."
-            ],
-            inputs=user_input
-        )
+print("[DEBUG] Configuring Gradio interface...")
 
-    # ---------------------------
-    # VIEW 2: Loading State
-    # ---------------------------
-    with gr.Column(visible=False, elem_classes=["center-container"]) as loading_view:
-        gr.HTML("""
-            <div class="loader-wrapper">
-                <div class="spinner"></div>
-                <div class="loader-text">
-                    <strong>Processing Query...</strong><br/>
-                    Retrieval could take 30-40s. Please wait.
-                </div>
-            </div>
-        """)
+# Configure Gradio interface with enhanced styling
+theme = gr.themes.Soft(
+    primary_hue="blue",
+    secondary_hue="slate",
+    font=[gr.themes.GoogleFont("Helvetica Neue"), "ui-sans-serif", "system-ui", "sans-serif"],
+).set(
+    body_background_fill="#FDFBF7",
+    color_accent_soft="#f3f4f6",
+)
 
-    # ---------------------------
-    # VIEW 3: Results (Paper & Buttons)
-    # ---------------------------
-    with gr.Column(visible=False, elem_classes=["paper-container"]) as result_view:
-        with gr.Row(elem_classes=["action-buttons"]):
-            new_query_btn = gr.Button("New Query")
-            save_pdf_btn = gr.Button("Save as PDF")
-            
-        output_paper = gr.Markdown("", elem_classes=["paper-box"])
-
-    # ---------------------------
-    # Event Handlers
-    # ---------------------------
-    def transition_to_loading():
-        return [
-            gr.update(visible=False), # Hide search
-            gr.update(visible=True),  # Show loader
-            gr.update(visible=False)  # Hide result
-        ]
-        
-    async def run_pipeline_and_show(msg):
-        result = await chat_pipeline(msg)
-        return [
-            gr.update(visible=False), # Hide loader
-            gr.update(visible=True),  # Show result
-            result                    # Populate paper
-        ]
-        
-    def reset_app():
-        return [
-            gr.update(visible=True),  # Show search
-            gr.update(visible=False), # Hide loader
-            gr.update(visible=False), # Hide result
-            gr.update(value="")       # Clear text input
-        ]
-
-    # Triggering the pipeline (Button click or Enter key)
-    submit_btn.click(
-        fn=transition_to_loading, outputs=[search_view, loading_view, result_view]
-    ).then(
-        fn=run_pipeline_and_show, inputs=[user_input], outputs=[loading_view, result_view, output_paper]
-    )
-    
-    user_input.submit(
-        fn=transition_to_loading, outputs=[search_view, loading_view, result_view]
-    ).then(
-        fn=run_pipeline_and_show, inputs=[user_input], outputs=[loading_view, result_view, output_paper]
-    )
-
-    # Action buttons
-    new_query_btn.click(
-        fn=reset_app, outputs=[search_view, loading_view, result_view, user_input]
-    )
-    
-    # Save as PDF leverages the browser print function + print specific CSS
-    save_pdf_btn.click(
-        fn=None, inputs=None, outputs=None, js="() => { window.print(); }"
-    )
+demo = gr.ChatInterface(
+    fn=chat_pipeline,
+    title="Geo-Insight: Gap Finder Assistant",
+    description="Ask a natural language question about financial gaps in humanitarian crises. The system will query the underlying data and generate a professional briefing note.",
+    examples=[
+        "Show underfunded food crises in the Sahel since 2022.",
+        "Current humanitarian needs in Middle East.",
+        "Countries with highest severity but lowest funding."
+    ],
+    theme=theme,
+    css=custom_css
+)
 
 print("[DEBUG] Gradio interface configured")
 
