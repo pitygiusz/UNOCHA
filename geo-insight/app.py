@@ -3,11 +3,11 @@ import sys
 import traceback
 from pathlib import Path
 
-# Add quattroformaggi module to path
-current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, current_dir)
+# Add src module to path
+src_dir = Path(__file__).resolve().parent / "src"
+sys.path.insert(0, str(src_dir))
 
-print(f"[DEBUG] Current directory: {current_dir}")
+print(f"[DEBUG] Current directory: {src_dir}")
 print(f"[DEBUG] sys.path: {sys.path[:3]}")
 
 import gradio as gr
@@ -19,7 +19,7 @@ from quattroformaggi.query_to_articles import filter_articles
 print("[DEBUG] All imports successful")
 
 # Get path to CSV file
-WORKSPACE_ROOT = Path(__file__).resolve().parent.parent.parent
+WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
 CSV_FILE_PATH = WORKSPACE_ROOT / "data" / "unocha_dataset.csv"
 ARTICLES_FILE_PATH = WORKSPACE_ROOT / "data" / "reliefweb_dataset.csv"
 

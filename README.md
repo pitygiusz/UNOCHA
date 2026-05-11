@@ -36,7 +36,7 @@ Coordinators at organizations such as OCHA need tools that provide them with hol
 # Get key from https://openrouter.ai/
 
 # 3. Run the app
-python geo-insight/src/app.py
+python geo-insight/app.py
 
 # 4. Open in browser
 # http://localhost:7860
@@ -63,6 +63,14 @@ User (with PDF export option)
 ```
 
 ### 📊 Data Source
+
+
+1. Download appropriate datasets from the following links:
+   - https://data.humdata.org/dataset/global-hpc-hno (make sure to add the year column in order to distinguish between records in provided CSV files),
+   - https://data.humdata.org/dataset/global-requirements-and-funding-data &ndash; specifically, `fts_requirements_funding_global.csv` and `fts_incoming_funding_global.csv`,
+   - https://data.worldbank.org/indicator/SP.POP.TOTL?end=2023&start=2001 &ndash; in this case, the resulting CSV file should be flattened so that it has 3 columns - `Country Code`, `year` and `population`,
+   - https://www.acaps.org/en/data (optional) &ndash; contains monthly severity indices per crisis; requires some preprocessing before ingesting
+
 
 - **Format**: CSV (local file: `data/unocha_dataset.csv`)
 - **Records**: 7,610+ humanitarian crisis data points
