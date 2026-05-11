@@ -20,7 +20,7 @@ async def brief_writer(
             extracted_notes = interpretation_notes
     
     notes_instruction = (
-        f"\n5. **Interpretation Notes:** Add the following as the first paragraph of the briefing note:\n{extracted_notes}\n"
+        f"Add the following as the first paragraph of the briefing note:\n{extracted_notes}\n under **Interpretation Notes:** section.\n"
         if extracted_notes
         else ""
     )
