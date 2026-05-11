@@ -39,7 +39,7 @@ async def chat_pipeline(message, history):
         print("[DEBUG] Step 1: Calling interpret_query...")
         agent1_result = await interpret_query(message)
         agent_json = agent1_result.model_dump_json()
-        print(f"[DEBUG] Agent 1 JSON (first 200 chars): {agent_json[:200]}")
+        print(f"[DEBUG] Agent 1 JSON: {agent_json}")
 
         # Step 2: Filter data from CSV
         print(f"[DEBUG] Step 2: Filtering data from CSV...")

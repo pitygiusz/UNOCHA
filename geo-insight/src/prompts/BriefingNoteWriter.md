@@ -34,8 +34,8 @@ Write a highly scannable, but concise Briefing Note (approx. 200-300 words) usin
 1. **Introduction:** One short paragraph identifying the most critical overlooked crisis or sector mismatch in the dataset.
 2. **Press Recap:** Short summary of the recent press (if avaliable).
 3. **Key Financial & Need Gaps:** 2-3 bullet points highlighting the most severe anomalies found in the data. Pair financial gaps with the human cost (using the `in_need` or `severity_index` columns).
-4. **Strategic Context / Decision Support:** A brief paragraph framing these numbers for the Coordinator. Formulate 1-2 critical questions this data raises that the Coordinator should ask donors or cluster leads.
-. **Methodology & Data Warnings:** A mandatory short section stating the limitations of this data (e.g., "Note: Funding data represents 'Incoming' flows only to prevent double-counting. Population figures may rely on outdated census models.").
+4. **Decision Support:** A brief paragraph framing these numbers for the Coordinator. Formulate 1-2 critical questions this data raises that the Coordinator should ask donors or cluster leads.
+. **Methodology & Data Warnings:** A mandatory short section stating the limitations of this data.
 
 {{interpretation_notes}}
 
